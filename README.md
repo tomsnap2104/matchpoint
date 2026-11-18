@@ -160,7 +160,9 @@ El tablero actualizado del proyecto (fase de inicio, Sprint 1, Sprint 2, QA, ent
 
 Equipo: **Juan Camilo Ramirez, Thomas Mendoza y Miguel Oviedo**. Para regenerar los archivos después de editar el generador: `node trello/generar-trello.js`.
 
-**Guion para exponer el proyecto:** [`GUI_ON_EXPOSICION.md`](GUI_ON_EXPOSICION.md) — explica el tablero, la app, las tecnologías y la demo en lenguaje sencillo.
+**Guiones para exponer el proyecto:**
+- [`GUI_ON_4MIN.md`](GUI_ON_4MIN.md) — versión de 4 minutos: tablero Trello, tecnologías y cómo construimos la app.
+- [`GUI_ON_EXPOSICION.md`](GUI_ON_EXPOSICION.md) — versión amplia de 6–7 minutos, incluye demostración de uso.
 
 ---
 
