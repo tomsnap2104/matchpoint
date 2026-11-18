@@ -3,8 +3,11 @@
 **Proyecto:** MatchPoint
 **Empresa solicitante:** Nexo Digital Labs
 **Fecha:** 17 de noviembre de 2026
-**URL de la aplicación:** https://matchpoint-tomsnap2104.onrender.com
+**URL de la aplicación (demo en vivo):** https://omissions-immigrants-tip-salad.trycloudflare.com
 **Repositorio:** https://github.com/tomsnap2104/matchpoint
+**Entrega en archivo:** `MatchPoint-Sprint2.zip`
+
+> La URL en vivo es un túnel de demostración y permanece activa mientras el servidor local y el túnel estén en ejecución. Para una URL permanente, desplegar el repositorio en Render/Railway siguiendo las instrucciones del `README.md`.
 
 ---
 

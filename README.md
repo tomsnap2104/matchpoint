@@ -21,6 +21,9 @@ MatchPoint centraliza la operación de torneos deportivos, pronósticos de resul
 
 No se requiere servidor de base de datos externo ni descargas en tiempo de ejecución.
 
+**Demo en vivo:** https://omissions-immigrants-tip-salad.trycloudflare.com
+**Repositorio:** https://github.com/tomsnap2104/matchpoint
+
 ---
 
 ## Instalación y ejecución
