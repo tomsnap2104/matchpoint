@@ -160,6 +160,8 @@ El tablero actualizado del proyecto (fase de inicio, Sprint 1, Sprint 2, QA, ent
 
 Equipo: **Juan Camilo Ramirez, Thomas Mendoza y Miguel Oviedo**. Para regenerar los archivos después de editar el generador: `node trello/generar-trello.js`.
 
+**Guion para exponer el proyecto:** [`GUI_ON_EXPOSICION.md`](GUI_ON_EXPOSICION.md) — explica el tablero, la app, las tecnologías y la demo en lenguaje sencillo.
+
 ---
 
 ## Estructura
