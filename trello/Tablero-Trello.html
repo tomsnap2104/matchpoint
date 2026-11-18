@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MatchPoint · Tablero final del proyecto</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;background:#f1f2f4;color:#172b4d}
+header{background:linear-gradient(135deg,#0079bf,#0c5aa6);color:#fff;padding:26px 30px 22px;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+header h1{margin:0 0 6px;font-size:26px}
+header p{margin:0;opacity:.9;font-size:14px;max-width:960px;line-height:1.5}
+.team{display:flex;gap:18px;flex-wrap:wrap;margin-top:16px}
+.member-chip{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:600}
+.avatar{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;color:#fff;font-size:10px;font-weight:800;letter-spacing:.03em}
+.stats{display:flex;gap:26px;flex-wrap:wrap;margin-top:18px}
+.stat{background:rgba(255,255,255,.14);border-radius:8px;padding:8px 14px;font-size:13px}
+.stat b{font-size:18px;display:block}
+.board{display:flex;gap:14px;align-items:flex-start;padding:22px 30px 50px;overflow-x:auto}
+.list{background:#ebecf0;border-radius:10px;width:310px;min-width:310px;padding:10px;max-height:calc(100vh - 120px);overflow-y:auto}
+.list-header{display:flex;align-items:center;justify-content:space-between;padding:4px 6px 12px}
+.list-header h3{margin:0;font-size:14px;font-weight:700}
+.count{background:#dfe1e6;border-radius:10px;padding:2px 9px;font-size:12px;color:#42526e;font-weight:700}
+.cards{display:grid;gap:9px}
+.card{background:#fff;border-radius:8px;padding:11px 12px;box-shadow:0 1px 2px rgba(9,30,66,.25);border:1px solid transparent}
+.card:hover{border-color:#0079bf}
+.card h4{margin:6px 0 6px;font-size:13.5px;line-height:1.35}
+.labels{display:flex;flex-wrap:wrap;gap:4px}
+.label{font-size:10px;font-weight:700;color:#fff;border-radius:4px;padding:3px 7px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.label-green{background:#61bd4f}.label-sky{background:#5ba4cf}.label-blue{background:#0079bf}
+.label-purple{background:#9f5fcd}.label-orange{background:#f5a623}.label-yellow{background:#f2d600;color:#172b4d}
+.label-lime{background:#51e898;color:#172b4d}.label-pink{background:#e83e8c}.label-red{background:#eb5a46}
+.label-gray{background:#7d8a99}
+.card-desc{font-size:11.5px;color:#5e6c84;line-height:1.45;margin-bottom:8px}
+.card-footer{display:flex;align-items:center;justify-content:space-between;gap:8px;border-top:1px solid #f1f2f4;padding-top:8px}
+.meta{display:flex;gap:10px;font-size:11px;color:#6b778c}
+.avatars{display:flex}
+.avatars .avatar{width:25px;height:25px;font-size:9px;margin-left:-5px;border:2px solid #fff}
+footer{padding:0 30px 34px;color:#5e6c84;font-size:12px}
+code{background:#e4e6ea;border-radius:4px;padding:1px 5px}
+@media(max-width:700px){header,footer{padding-left:16px;padding-right:16px}.board{padding-left:16px;padding-right:16px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>🎯 MatchPoint · Tablero final del proyecto</h1>
+  <p>Plataforma de gestión de torneos, pronósticos y créditos virtuales para Nexo Digital Labs.  Tablero actualizado con la fase de inicio, el Sprint 1 (MVP), el Sprint 2 (producto final), la validación, la entrega y las mejoras pendientes.  Equipo: Juan Camilo Ramirez · Thomas Mendoza · Miguel Oviedo Repositorio: https://github.com/tomsnap2104/matchpoint Demo: https://omissions-immigrants-tip-salad.trycloudflare.com</p>
+  <div class="team"><span class="member-chip"><span class="avatar" style="background:#d97706">JCR</span>Juan Camilo Ramirez</span><span class="member-chip"><span class="avatar" style="background:#2563eb">TM</span>Thomas Mendoza</span><span class="member-chip"><span class="avatar" style="background:#059669">MO</span>Miguel Oviedo</span></div>
+  <div class="stats">
+    <div class="stat"><b>53</b>tarjetas</div>
+    <div class="stat"><b>45</b>completadas</div>
+    <div class="stat"><b>6</b>columnas</div>
+    <div class="stat"><b>29</b>puntos Sprint 1</div>
+    <div class="stat"><b>28/28</b>pruebas E2E</div>
+  </div>
+</header>
+<main class="board"><section class="list">
+      <div class="list-header"><h3>📋 Backlog · Mejoras futuras</h3><span class="count">8</span></div>
+      <div class="cards"><article class="card">
+        <div class="labels"><span class="label label-pink" title="Entrega">Entrega</span><span class="label label-red" title="Mejora futura">Mejora futura</span></div>
+        <h4>Desplegar una URL permanente (Render / Railway)</h4>
+        <div class="card-desc">El repositorio ya está listo para desplegar (`npm install` + `npm start`, puerto por variable `PORT`). La URL actual es un túnel de demostración que depende de que el servidor local siga activo.<br><br>• Crear servicio web en Render o Railway desde https://github.com/tomsnap2104/matchpoint</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">✔ 4/4</span><span class="meta-item">📅 10 de dic de 2026</span></div><div class="avatars"><span class="avatar" style="background:#2563eb" title="Thomas Mendoza">TM</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-red" title="Mejora futura">Mejora futura</span><span class="label label-yellow" title="Frontend">Frontend</span></div>
+        <h4>Reportes exportables de movimientos y liquidaciones (CSV/PDF)</h4>
+        <div class="card-desc">Permitir al administrador descargar el historial de movimientos, pronósticos y liquidaciones para atender reclamaciones sin depender de la pantalla.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">✔ 3/3</span><span class="meta-item">📅 12 de dic de 2026</span></div><div class="avatars"><span class="avatar" style="background:#059669" title="Miguel Oviedo">MO</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-red" title="Mejora futura">Mejora futura</span><span class="label label-gray" title="Seguridad">Seguridad</span></div>
+        <h4>Aprobación doble para ajustes sensibles de créditos</h4>
+        <div class="card-desc">Exigir que dos administradores confirmen los ajustes de créditos por encima de un umbral, conservando la bitácora de aprobaciones.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 14 de dic de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-red" title="Mejora futura">Mejora futura</span><span class="label label-lime" title="Pruebas / QA">Pruebas / QA</span></div>
+        <h4>Pruebas de carga sobre liquidación y concurrencia</h4>
+        <div class="card-desc">Ampliar las 28 pruebas E2E con escenarios de muchos pronósticos simultáneos y eventos con gran cantidad de participantes.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 16 de dic de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-red" title="Mejora futura">Mejora futura</span><span class="label label-gray" title="Seguridad">Seguridad</span></div>
+        <h4>Autenticación de dos factores para administradores</h4>
+        <div class="card-desc">Añadir una segunda verificación para el rol administrador y registrar los inicios de sesión en la bitácora.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 17 de dic de 2026</span></div><div class="avatars"><span class="avatar" style="background:#2563eb" title="Thomas Mendoza">TM</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-red" title="Mejora futura">Mejora futura</span><span class="label label-sky" title="Planeación">Planeación</span></div>
+        <h4>ADR de persistencia y migración a base de datos administrada</h4>
+        <div class="card-desc">Documentar la decisión de usar SQLite embebido (`sql.js`) y plantear la migración futura a una base de datos administrada con volumen persistente.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 18 de dic de 2026</span></div><div class="avatars"><span class="avatar" style="background:#2563eb" title="Thomas Mendoza">TM</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-red" title="Mejora futura">Mejora futura</span><span class="label label-yellow" title="Frontend">Frontend</span><span class="label label-orange" title="Backend">Backend</span></div>
+        <h4>Nuevas modalidades de torneo y tipos de pronóstico</h4>
+        <div class="card-desc">Habilitar modalidades adicionales ( elimination directa con llaves, carreras, marcador exacto) manteniendo el modelo de opciones dinámicas por evento.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 19 de dic de 2026</span></div><div class="avatars"><span class="avatar" style="background:#059669" title="Miguel Oviedo">MO</span><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-red" title="Mejora futura">Mejora futura</span><span class="label label-lime" title="Pruebas / QA">Pruebas / QA</span></div>
+        <h4>Monitoreo y alertas automáticas de conciliación</h4>
+        <div class="card-desc">Ejecutar la conciliación saldo vs. movimientos al iniciar el servicio y generar una alerta cuando aparezca cualquier diferencia.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 20 de dic de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span></div></div>
+      </article></div>
+    </section><section class="list">
+      <div class="list-header"><h3>🧭 Planeación · Fase de inicio</h3><span class="count">6</span></div>
+      <div class="cards"><article class="card">
+        <div class="labels"><span class="label label-sky" title="Planeación">Planeación</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Canvas de equipo y propósito del producto</h4>
+        <div class="card-desc">Definimos juntos el propósito: construir MatchPoint, una plataforma que centralice torneos, pronósticos y créditos virtuales para Nexo Digital Labs.<br><br>Equipo 1: Juan Camilo Ramirez, Thomas Mendoza y Miguel Oviedo.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 20 de oct de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span><span class="avatar" style="background:#2563eb" title="Thomas Mendoza">TM</span><span class="avatar" style="background:#059669" title="Miguel Oviedo">MO</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-sky" title="Planeación">Planeación</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Mapa de historias de usuario y releases (R1 / R2 / R3)</h4>
+        <div class="card-desc">Mapa de historias con siete recorridos: cuenta y acceso, torneos y eventos, pronósticos, créditos virtuales, transacciones y trazabilidad, resultados y liquidación, consulta y seguimiento. Release 1 (MVP), Release 2 (Should) y Release 3 (Could).</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 21 de oct de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span><span class="avatar" style="background:#2563eb" title="Thomas Mendoza">TM</span><span class="avatar" style="background:#059669" title="Miguel Oviedo">MO</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-sky" title="Planeación">Planeación</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Definición de 9 historias de usuario con criterios INVEST</h4>
+        <div class="card-desc">Cada historia se revisó con los siete criterios INVEST: completo, consistente, negociable, valioso, estimable, pequeño y comprobable.<br><br>Nota: el documento del Sprint 1 usaba otra numeración (HU001–HU014). Para el tablero final se unificó a la numeración HU01–HU09 usada en la review del Sprint 2, donde cada integrante presentó 3 historias.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 22 de oct de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span><span class="avatar" style="background:#2563eb" title="Thomas Mendoza">TM</span><span class="avatar" style="background:#059669" title="Miguel Oviedo">MO</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-sky" title="Planeación">Planeación</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Backlog estimado del Sprint 1 (9 HUs / 29 puntos)</h4>
+        <div class="card-desc">Estimación en puntos de historia (escala 1, 2, 3, 5): HU01 3, HU02 3, HU03 3, HU04 5, HU05 2, HU06 3, HU07 3, HU08 2, HU09 5. Total: 29 puntos.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 23 de oct de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span><span class="avatar" style="background:#2563eb" title="Thomas Mendoza">TM</span><span class="avatar" style="background:#059669" title="Miguel Oviedo">MO</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-sky" title="Planeación">Planeación</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Reparto de historias y review del Sprint 1</h4>
+        <div class="card-desc">Reparto final (3 historias por persona):<br><br>• Thomas Mendoza: HU01 Registro, HU02 Inicio de sesión, HU09 Permisos por rol</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 25 de oct de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span><span class="avatar" style="background:#2563eb" title="Thomas Mendoza">TM</span><span class="avatar" style="background:#059669" title="Miguel Oviedo">MO</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-sky" title="Planeación">Planeación</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Retrospectiva Starfish del Sprint 1</h4>
+        <div class="card-desc">Mantener: documentar antes de programar. Más: probar cada historia con casos concretos. Empezar: commits pequeños por historia. Menos: dejar trabajo para el último día. Dejar de: pegar contenido sin revisar el formato.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 27 de oct de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span><span class="avatar" style="background:#2563eb" title="Thomas Mendoza">TM</span><span class="avatar" style="background:#059669" title="Miguel Oviedo">MO</span></div></div>
+      </article></div>
+    </section><section class="list">
+      <div class="list-header"><h3>✅ Sprint 1 · MVP (completado)</h3><span class="count">9</span></div>
+      <div class="cards"><article class="card">
+        <div class="labels"><span class="label label-blue" title="Sprint 1 · MVP">Sprint 1 · MVP</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>HU01 · Registrarme con una identificación en la plataforma (3 pts)</h4>
+        <div class="card-desc">Historia de usuario del Sprint 1 · Responsable: Thomas Mendoza · Estimación: 3 puntos.<br><br>Implementada y validada en el producto final de MatchPoint.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">✔ 3/3</span><span class="meta-item">📅 03 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#2563eb" title="Thomas Mendoza">TM</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-blue" title="Sprint 1 · MVP">Sprint 1 · MVP</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>HU02 · Iniciar sesión (3 pts)</h4>
+        <div class="card-desc">Historia de usuario del Sprint 1 · Responsable: Thomas Mendoza · Estimación: 3 puntos.<br><br>Implementada y validada en el producto final de MatchPoint.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">✔ 3/3</span><span class="meta-item">📅 03 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#2563eb" title="Thomas Mendoza">TM</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-blue" title="Sprint 1 · MVP">Sprint 1 · MVP</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>HU03 · Crear un torneo (3 pts)</h4>
+        <div class="card-desc">Historia de usuario del Sprint 1 · Responsable: Juan Camilo Ramirez · Estimación: 3 puntos.<br><br>Implementada y validada en el producto final de MatchPoint.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">✔ 3/3</span><span class="meta-item">📅 03 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-blue" title="Sprint 1 · MVP">Sprint 1 · MVP</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>HU04 · Registrar un evento con fecha y opciones de pronóstico (5 pts)</h4>
+        <div class="card-desc">Historia de usuario del Sprint 1 · Responsable: Juan Camilo Ramirez · Estimación: 5 puntos.<br><br>Implementada y validada en el producto final de MatchPoint.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">✔ 3/3</span><span class="meta-item">📅 03 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-blue" title="Sprint 1 · MVP">Sprint 1 · MVP</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>HU05 · Consultar torneos disponibles (2 pts)</h4>
+        <div class="card-desc">Historia de usuario del Sprint 1 · Responsable: Miguel Oviedo · Estimación: 2 puntos.<br><br>Implementada y validada en el producto final de MatchPoint.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">✔ 3/3</span><span class="meta-item">📅 03 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#059669" title="Miguel Oviedo">MO</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-blue" title="Sprint 1 · MVP">Sprint 1 · MVP</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>HU06 · Ver eventos, fechas y estado de cada uno (3 pts)</h4>
+        <div class="card-desc">Historia de usuario del Sprint 1 · Responsable: Miguel Oviedo · Estimación: 3 puntos.<br><br>Implementada y validada en el producto final de MatchPoint.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">✔ 3/3</span><span class="meta-item">📅 05 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#059669" title="Miguel Oviedo">MO</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-blue" title="Sprint 1 · MVP">Sprint 1 · MVP</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>HU07 · Asignar créditos iniciales a un usuario (3 pts)</h4>
+        <div class="card-desc">Historia de usuario del Sprint 1 · Responsable: Juan Camilo Ramirez · Estimación: 3 puntos.<br><br>Implementada y validada en el producto final de MatchPoint.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">✔ 3/3</span><span class="meta-item">📅 05 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-blue" title="Sprint 1 · MVP">Sprint 1 · MVP</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>HU08 · Consultar mi saldo de créditos (2 pts)</h4>
+        <div class="card-desc">Historia de usuario del Sprint 1 · Responsable: Miguel Oviedo · Estimación: 2 puntos.<br><br>Implementada y validada en el producto final de MatchPoint.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">✔ 3/3</span><span class="meta-item">📅 05 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#059669" title="Miguel Oviedo">MO</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-blue" title="Sprint 1 · MVP">Sprint 1 · MVP</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>HU09 · Restringir acciones según el rol y los permisos (5 pts)</h4>
+        <div class="card-desc">Historia de usuario del Sprint 1 · Responsable: Thomas Mendoza · Estimación: 5 puntos.<br><br>Implementada y validada en el producto final de MatchPoint.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">✔ 3/3</span><span class="meta-item">📅 05 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#2563eb" title="Thomas Mendoza">TM</span></div></div>
+      </article></div>
+    </section><section class="list">
+      <div class="list-header"><h3>🚀 Sprint 2 · Producto final (completado)</h3><span class="count">16</span></div>
+      <div class="cards"><article class="card">
+        <div class="labels"><span class="label label-purple" title="Sprint 2 · Producto final">Sprint 2 · Producto final</span><span class="label label-orange" title="Backend">Backend</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Diseño del esquema SQLite y datos de ejemplo</h4>
+        <div class="card-desc">Tablas: users, tournaments, events, predictions, transactions, settlement_runs, result_corrections y operation_log.<br><br>Restricciones clave: saldo no negativo, un pronóstico por usuario y evento, claves de idempotencia únicas y versión de liquidación por evento.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">✔ 3/3</span><span class="meta-item">📅 10 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-purple" title="Sprint 2 · Producto final">Sprint 2 · Producto final</span><span class="label label-orange" title="Backend">Backend</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>API REST: registro, login y tokens JWT</h4>
+        <div class="card-desc">Endpoints /api/auth/register, /api/auth/login, /api/auth/me (GET y PUT). Contraseñas cifradas con bcryptjs y sesión con JWT de 7 días.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 10 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#2563eb" title="Thomas Mendoza">TM</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-purple" title="Sprint 2 · Producto final">Sprint 2 · Producto final</span><span class="label label-orange" title="Backend">Backend</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Guards de rol y aislamiento de datos por usuario</h4>
+        <div class="card-desc">Middleware `authenticateToken` y `requireAdmin`. Las consultas /api/me/* filtran siempre por el usuario autenticado. Probado: un usuario recibe HTTP 403 al intentar /api/admin/*.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 11 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#2563eb" title="Thomas Mendoza">TM</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-purple" title="Sprint 2 · Producto final">Sprint 2 · Producto final</span><span class="label label-orange" title="Backend">Backend</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>API de torneos y eventos con modalidades 1X2 y Ganador</h4>
+        <div class="card-desc">Listado y detalle de torneos, listado de eventos con filtro por estado, estado efectivo calculado según opens_at / closes_at y opciones dinámicas por evento.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 11 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-purple" title="Sprint 2 · Producto final">Sprint 2 · Producto final</span><span class="label label-orange" title="Backend">Backend</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Registro de pronósticos con validación de opción y ventana</h4>
+        <div class="card-desc">Validación de opción válida, evento abierto, saldo suficiente y un pronóstico por usuario/evento. Los pronósticos fuera del periodo son rechazados con HTTP 400.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 12 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-purple" title="Sprint 2 · Producto final">Sprint 2 · Producto final</span><span class="label label-orange" title="Backend">Backend</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Control de saldo y movimientos de créditos (sin negativos)</h4>
+        <div class="card-desc">Cada movimiento guarda tipo, cantidad, saldo resultante, referencia, descripción y fecha. La función moveCredits verifica el saldo antes de descontar y nunca permite valores negativos.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 12 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-purple" title="Sprint 2 · Producto final">Sprint 2 · Producto final</span><span class="label label-orange" title="Backend">Backend</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Idempotencia y transacciones atómicas</h4>
+        <div class="card-desc">Clave de idempotencia única en pronósticos y movimientos. Dos peticiones simultáneas con la misma clave producen un solo pronóstico y un solo descuento.<br><br>Revalidación de saldo y duplicados dentro de la transacción (BEGIN / COMMIT / ROLLBACK) y registro de operaciones exitosas, duplicadas y fallidas en `operation_log`.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 13 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-purple" title="Sprint 2 · Producto final">Sprint 2 · Producto final</span><span class="label label-orange" title="Backend">Backend</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Publicación de resultados y liquidación versionada</h4>
+        <div class="card-desc">Al publicar el resultado se determinan los acertados y se acreditan premios según el multiplicador. `settlement_runs` guarda una versión por liquidación; repetirla devuelve &quot;ya liquidado&quot; sin pagos dobles.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 13 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-purple" title="Sprint 2 · Producto final">Sprint 2 · Producto final</span><span class="label label-orange" title="Backend">Backend</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Corrección controlada con reversión e historial</h4>
+        <div class="card-desc">La corrección revierte los premios anteriores con movimientos `correction_reversal`, vuelve a liquidar con el nuevo resultado y deja constancia en `result_corrections`. Ningún movimiento confirmado se elimina.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 14 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-purple" title="Sprint 2 · Producto final">Sprint 2 · Producto final</span><span class="label label-orange" title="Backend">Backend</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Conciliación de saldos contra movimientos</h4>
+        <div class="card-desc">Endpoint /api/admin/reconciliation compara el saldo guardado de cada usuario con la suma de sus movimientos y el número de apuestas. El panel muestra el resultado por usuario.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 14 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-purple" title="Sprint 2 · Producto final">Sprint 2 · Producto final</span><span class="label label-yellow" title="Frontend">Frontend</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>SPA: estructura, router y diseño responsive</h4>
+        <div class="card-desc">Aplicación de página única en HTML/CSS/JavaScript vanilla, con router por hash, guardas de ruta, header con saldo en vivo, mensajes toast y diseño adaptable a móvil.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 14 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#059669" title="Miguel Oviedo">MO</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-purple" title="Sprint 2 · Producto final">Sprint 2 · Producto final</span><span class="label label-yellow" title="Frontend">Frontend</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Vistas de torneos, eventos y detalle con pronóstico</h4>
+        <div class="card-desc">Catálogo de torneos, filtro de eventos por estado, detalle de evento con opciones, resultado oficial, participaciones recientes y formulario de pronóstico.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 15 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#059669" title="Miguel Oviedo">MO</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-purple" title="Sprint 2 · Producto final">Sprint 2 · Producto final</span><span class="label label-yellow" title="Frontend">Frontend</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Vistas de créditos, pronósticos y perfil</h4>
+        <div class="card-desc">&quot;Mis créditos&quot; muestra saldo, saldo derivado y estado Conciliado; &quot;Mis pronósticos&quot; muestra estado y resultado; perfil permite actualizar el nombre.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 15 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#059669" title="Miguel Oviedo">MO</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-purple" title="Sprint 2 · Producto final">Sprint 2 · Producto final</span><span class="label label-yellow" title="Frontend">Frontend</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Panel de administración con 4 pestañas</h4>
+        <div class="card-desc">Resumen e indicadores, torneos y eventos, liquidación (publicar/cerrar/corregir) y movimientos con trazabilidad y ajuste manual de créditos.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 15 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#059669" title="Miguel Oviedo">MO</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-purple" title="Sprint 2 · Producto final">Sprint 2 · Producto final</span><span class="label label-pink" title="Entrega">Entrega</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Repositorio GitHub y commits del proyecto</h4>
+        <div class="card-desc">Repositorio público https://github.com/tomsnap2104/matchpoint con el código completo, .gitignore y dos commits: implementación inicial y documentación de la URL pública.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 16 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#2563eb" title="Thomas Mendoza">TM</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-purple" title="Sprint 2 · Producto final">Sprint 2 · Producto final</span><span class="label label-pink" title="Entrega">Entrega</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>ZIP de entrega y documentación del proyecto</h4>
+        <div class="card-desc">Archivo MatchPoint-Sprint2.zip con código, base de datos de ejemplo, README, retrospectiva y review. Incluye también este tablero y su vista previa.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 16 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#2563eb" title="Thomas Mendoza">TM</span></div></div>
+      </article></div>
+    </section><section class="list">
+      <div class="list-header"><h3>🧪 Validación · QA y entrega (completado)</h3><span class="count">8</span></div>
+      <div class="cards"><article class="card">
+        <div class="labels"><span class="label label-lime" title="Pruebas / QA">Pruebas / QA</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>28 pruebas end-to-end de la API (100% exitosas)</h4>
+        <div class="card-desc">Cobertura: health, torneos, eventos, autenticación, roles, opción inválida, idempotencia, concurrencia, descuento, premio, liquidación duplicada, corrección, conciliación, trazabilidad, guards y frontend servido.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 17 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-lime" title="Pruebas / QA">Pruebas / QA</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Verificación del SPA en navegador sin errores de consola</h4>
+        <div class="card-desc">Probados inicio, login, evento, pronóstico desde la UI (saldo 125 → 110), créditos, administración, pestaña de liquidación y guard de rutas. Consola limpia.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 17 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#059669" title="Miguel Oviedo">MO</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-lime" title="Pruebas / QA">Pruebas / QA</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Caso crítico: doble descuento y operaciones simultáneas</h4>
+        <div class="card-desc">Dos solicitudes concurrentes con la misma clave de idempotencia → un solo pronóstico y un solo movimiento de apuesta. El reintento devuelve `duplicate: true` sin descontar.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 17 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-lime" title="Pruebas / QA">Pruebas / QA</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Caso crítico: premios duplicados y corrección</h4>
+        <div class="card-desc">Repetir la liquidación no aumenta el saldo. Corregir el resultado revierte el premio, vuelve a liquidar y conserva el historial de correcciones.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 17 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-pink" title="Entrega">Entrega</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>URL pública de demostración</h4>
+        <div class="card-desc">Túnel público https://omissions-immigrants-tip-salad.trycloudflare.com apuntando al servidor local. Verificado con /api/health y con la carga de la SPA.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 17 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#2563eb" title="Thomas Mendoza">TM</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-pink" title="Entrega">Entrega</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>README con instalación, endpoints y despliegue</h4>
+        <div class="card-desc">Incluye stack, comandos, credenciales de prueba, tabla de endpoints, pruebas, URLs y notas de despliegue.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 17 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#2563eb" title="Thomas Mendoza">TM</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-pink" title="Entrega">Entrega</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>REVIEW_SPRINT2.md: demo, criterios y evidencia</h4>
+        <div class="card-desc">Guion de demostración de 11 pasos, matriz de criterios de aceptación, evidencia de pruebas y decisiones técnicas.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 17 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#059669" title="Miguel Oviedo">MO</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-pink" title="Entrega">Entrega</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>RETROSPECTIVA_SPRINT2.md: Starfish y mejoras</h4>
+        <div class="card-desc">Mantener, hacer más, hacer menos, dejar de hacer y empezar a hacer, con aprendizajes y compromisos para el siguiente sprint.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 17 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#2563eb" title="Thomas Mendoza">TM</span></div></div>
+      </article></div>
+    </section><section class="list">
+      <div class="list-header"><h3>🔁 Retrospectiva · Aprendizajes (completado)</h3><span class="count">6</span></div>
+      <div class="cards"><article class="card">
+        <div class="labels"><span class="label label-sky" title="Planeación">Planeación</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Mantener: documentar antes de programar</h4>
+        <div class="card-desc">El canvas, el mapa de historias y el backlog dieron una guía clara de qué construir. Mantener esta práctica en el siguiente sprint.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 17 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span><span class="avatar" style="background:#2563eb" title="Thomas Mendoza">TM</span><span class="avatar" style="background:#059669" title="Miguel Oviedo">MO</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-lime" title="Pruebas / QA">Pruebas / QA</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Más de: pruebas concretas y seguimiento corto</h4>
+        <div class="card-desc">Probar cada historia con datos repetidos, fechas inválidas y permisos por rol; reuniones breves de seguimiento durante la semana.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 17 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span><span class="avatar" style="background:#2563eb" title="Thomas Mendoza">TM</span><span class="avatar" style="background:#059669" title="Miguel Oviedo">MO</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-red" title="Mejora futura">Mejora futura</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Menos de: dejar el trabajo para los últimos días</h4>
+        <div class="card-desc">Distribuir la carga durante el sprint para evitar concentrar la entrega al final.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 17 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span><span class="avatar" style="background:#2563eb" title="Thomas Mendoza">TM</span><span class="avatar" style="background:#059669" title="Miguel Oviedo">MO</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-pink" title="Entrega">Entrega</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Empezar: commits pequeños por historia</h4>
+        <div class="card-desc">Usar Git con commits frecuentes y mensajes descriptivos, accesibles desde cualquier equipo.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 17 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#2563eb" title="Thomas Mendoza">TM</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-red" title="Mejora futura">Mejora futura</span><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Dejar de: pegar contenido sin revisar el formato</h4>
+        <div class="card-desc">Revisar siempre el formato al migrar contenido entre herramientas; en el sprint anterior se dañó el formato varias veces.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 17 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#059669" title="Miguel Oviedo">MO</span></div></div>
+      </article><article class="card">
+        <div class="labels"><span class="label label-green" title="Hecho">Hecho</span></div>
+        <h4>Aprendizaje clave: idempotencia y conciliación</h4>
+        <div class="card-desc">La idempotencia evita cobros dobles por reintentos de red; la conciliación (saldo vs. suma de movimientos) es la prueba directa de que el sistema es confiable.</div>
+        <div class="card-footer"><div class="meta"><span class="meta-item">📅 17 de nov de 2026</span></div><div class="avatars"><span class="avatar" style="background:#d97706" title="Juan Camilo Ramirez">JCR</span></div></div>
+      </article></div>
+    </section></main>
+<footer>
+  Vista previa del tablero. Para importarlo a Trello usa <code>MatchPoint-Trello.json</code> (exportación completa) o
+  <code>MatchPoint-Trello-Plantilla.json</code> (formato plantilla). Instrucciones en <code>README-TRELLO.md</code>.
+</footer>
+</body>
+</html>

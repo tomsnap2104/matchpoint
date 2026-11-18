@@ -1,0 +1,2778 @@
+{
+  "id": "mpMatchPointBoard",
+  "name": "MatchPoint · Tablero final del proyecto",
+  "desc": "Plataforma de gestión de torneos, pronósticos y créditos virtuales para Nexo Digital Labs.\n\nTablero actualizado con la fase de inicio, el Sprint 1 (MVP), el Sprint 2 (producto final), la validación, la entrega y las mejoras pendientes.\n\nEquipo: Juan Camilo Ramirez · Thomas Mendoza · Miguel Oviedo\nRepositorio: https://github.com/tomsnap2104/matchpoint\nDemo: https://omissions-immigrants-tip-salad.trycloudflare.com",
+  "descData": null,
+  "closed": false,
+  "idOrganization": null,
+  "idEnterprise": null,
+  "pinned": false,
+  "url": "https://trello.com/b/mpMatchPoint/matchpoint",
+  "shortUrl": "https://trello.com/b/mpMatchPoint",
+  "prefs": {
+    "permissionLevel": "private",
+    "hideVotes": false,
+    "voting": "members",
+    "comments": "members",
+    "invitations": "members",
+    "selfJoin": false,
+    "cardCovers": true,
+    "cardAging": "regular",
+    "calendarFeedEnabled": false,
+    "background": "gradientblue",
+    "backgroundImage": null,
+    "backgroundImageScaled": null,
+    "backgroundTile": false,
+    "backgroundBrightness": "dark",
+    "backgroundColor": "#0079BF",
+    "backgroundBottomColor": "#0C5AA6",
+    "backgroundTopColor": "#0079BF",
+    "canBePublic": true,
+    "canBeEnterprise": true,
+    "canBeOrg": true,
+    "canBePrivate": true,
+    "canInvite": true
+  },
+  "labelNames": {
+    "green": "Hecho",
+    "sky": "Planeación",
+    "blue": "Sprint 1 · MVP",
+    "purple": "Sprint 2 · Producto final",
+    "orange": "Backend",
+    "yellow": "Frontend",
+    "lime": "Pruebas / QA",
+    "pink": "Entrega",
+    "red": "Mejora futura",
+    "gray": "Seguridad"
+  },
+  "limits": {},
+  "members": [
+    {
+      "id": "mpJuan",
+      "avatarHash": null,
+      "fullName": "Juan Camilo Ramirez",
+      "initials": "JCR",
+      "username": "juancamiloramirez",
+      "confirmed": true,
+      "memberType": "normal",
+      "status": "active"
+    },
+    {
+      "id": "mpThomas",
+      "avatarHash": null,
+      "fullName": "Thomas Mendoza",
+      "initials": "TM",
+      "username": "thomasmendoza",
+      "confirmed": true,
+      "memberType": "normal",
+      "status": "active"
+    },
+    {
+      "id": "mpMiguel",
+      "avatarHash": null,
+      "fullName": "Miguel Oviedo",
+      "initials": "MO",
+      "username": "migueloviedo",
+      "confirmed": true,
+      "memberType": "normal",
+      "status": "active"
+    }
+  ],
+  "labels": [
+    {
+      "id": "lab_hecho",
+      "name": "Hecho",
+      "color": "green",
+      "idBoard": "mpMatchPointBoard",
+      "pos": 1
+    },
+    {
+      "id": "lab_planeacion",
+      "name": "Planeación",
+      "color": "sky",
+      "idBoard": "mpMatchPointBoard",
+      "pos": 2
+    },
+    {
+      "id": "lab_sprint1",
+      "name": "Sprint 1 · MVP",
+      "color": "blue",
+      "idBoard": "mpMatchPointBoard",
+      "pos": 3
+    },
+    {
+      "id": "lab_sprint2",
+      "name": "Sprint 2 · Producto final",
+      "color": "purple",
+      "idBoard": "mpMatchPointBoard",
+      "pos": 4
+    },
+    {
+      "id": "lab_backend",
+      "name": "Backend",
+      "color": "orange",
+      "idBoard": "mpMatchPointBoard",
+      "pos": 5
+    },
+    {
+      "id": "lab_frontend",
+      "name": "Frontend",
+      "color": "yellow",
+      "idBoard": "mpMatchPointBoard",
+      "pos": 6
+    },
+    {
+      "id": "lab_qa",
+      "name": "Pruebas / QA",
+      "color": "lime",
+      "idBoard": "mpMatchPointBoard",
+      "pos": 7
+    },
+    {
+      "id": "lab_entrega",
+      "name": "Entrega",
+      "color": "pink",
+      "idBoard": "mpMatchPointBoard",
+      "pos": 8
+    },
+    {
+      "id": "lab_mejora",
+      "name": "Mejora futura",
+      "color": "red",
+      "idBoard": "mpMatchPointBoard",
+      "pos": 9
+    },
+    {
+      "id": "lab_seguridad",
+      "name": "Seguridad",
+      "color": "gray",
+      "idBoard": "mpMatchPointBoard",
+      "pos": 10
+    }
+  ],
+  "lists": [
+    {
+      "id": "listBacklog",
+      "name": "📋 Backlog · Mejoras futuras",
+      "closed": false,
+      "idBoard": "mpMatchPointBoard",
+      "pos": 1
+    },
+    {
+      "id": "listPlaneacion",
+      "name": "🧭 Planeación · Fase de inicio",
+      "closed": false,
+      "idBoard": "mpMatchPointBoard",
+      "pos": 2
+    },
+    {
+      "id": "listSprint1",
+      "name": "✅ Sprint 1 · MVP (completado)",
+      "closed": false,
+      "idBoard": "mpMatchPointBoard",
+      "pos": 3
+    },
+    {
+      "id": "listSprint2",
+      "name": "🚀 Sprint 2 · Producto final (completado)",
+      "closed": false,
+      "idBoard": "mpMatchPointBoard",
+      "pos": 4
+    },
+    {
+      "id": "listQA",
+      "name": "🧪 Validación · QA y entrega (completado)",
+      "closed": false,
+      "idBoard": "mpMatchPointBoard",
+      "pos": 5
+    },
+    {
+      "id": "listRetro",
+      "name": "🔁 Retrospectiva · Aprendizajes (completado)",
+      "closed": false,
+      "idBoard": "mpMatchPointBoard",
+      "pos": 6
+    }
+  ],
+  "cards": [
+    {
+      "id": "mpcard001",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listBacklog",
+      "name": "Desplegar una URL permanente (Render / Railway)",
+      "desc": "El repositorio ya está listo para desplegar (`npm install` + `npm start`, puerto por variable `PORT`). La URL actual es un túnel de demostración que depende de que el servidor local siga activo.\n\n• Crear servicio web en Render o Railway desde https://github.com/tomsnap2104/matchpoint\n• Configurar `JWT_SECRET` y volumen persistente para `db/matchpoint.db`\n• Verificar el flujo completo en el entorno desplegado",
+      "descData": null,
+      "idMembers": [
+        "mpThomas"
+      ],
+      "idLabels": [
+        "lab_entrega",
+        "lab_mejora"
+      ],
+      "labels": [
+        {
+          "id": "lab_entrega",
+          "name": "Entrega",
+          "color": "pink"
+        },
+        {
+          "id": "lab_mejora",
+          "name": "Mejora futura",
+          "color": "red"
+        }
+      ],
+      "pos": 1024,
+      "due": "2026-12-10T17:00:00.000Z",
+      "dueComplete": false,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [
+        "mpcheck001"
+      ],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard001",
+      "shortUrl": "https://trello.com/c/mpcard001",
+      "dateLastActivity": "2026-12-10T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard002",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listBacklog",
+      "name": "Reportes exportables de movimientos y liquidaciones (CSV/PDF)",
+      "desc": "Permitir al administrador descargar el historial de movimientos, pronósticos y liquidaciones para atender reclamaciones sin depender de la pantalla.",
+      "descData": null,
+      "idMembers": [
+        "mpMiguel"
+      ],
+      "idLabels": [
+        "lab_mejora",
+        "lab_frontend"
+      ],
+      "labels": [
+        {
+          "id": "lab_mejora",
+          "name": "Mejora futura",
+          "color": "red"
+        },
+        {
+          "id": "lab_frontend",
+          "name": "Frontend",
+          "color": "yellow"
+        }
+      ],
+      "pos": 2048,
+      "due": "2026-12-12T17:00:00.000Z",
+      "dueComplete": false,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [
+        "mpcheck002"
+      ],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard002",
+      "shortUrl": "https://trello.com/c/mpcard002",
+      "dateLastActivity": "2026-12-12T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard003",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listBacklog",
+      "name": "Aprobación doble para ajustes sensibles de créditos",
+      "desc": "Exigir que dos administradores confirmen los ajustes de créditos por encima de un umbral, conservando la bitácora de aprobaciones.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan"
+      ],
+      "idLabels": [
+        "lab_mejora",
+        "lab_seguridad"
+      ],
+      "labels": [
+        {
+          "id": "lab_mejora",
+          "name": "Mejora futura",
+          "color": "red"
+        },
+        {
+          "id": "lab_seguridad",
+          "name": "Seguridad",
+          "color": "gray"
+        }
+      ],
+      "pos": 3072,
+      "due": "2026-12-14T17:00:00.000Z",
+      "dueComplete": false,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard003",
+      "shortUrl": "https://trello.com/c/mpcard003",
+      "dateLastActivity": "2026-12-14T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard004",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listBacklog",
+      "name": "Pruebas de carga sobre liquidación y concurrencia",
+      "desc": "Ampliar las 28 pruebas E2E con escenarios de muchos pronósticos simultáneos y eventos con gran cantidad de participantes.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan"
+      ],
+      "idLabels": [
+        "lab_mejora",
+        "lab_qa"
+      ],
+      "labels": [
+        {
+          "id": "lab_mejora",
+          "name": "Mejora futura",
+          "color": "red"
+        },
+        {
+          "id": "lab_qa",
+          "name": "Pruebas / QA",
+          "color": "lime"
+        }
+      ],
+      "pos": 4096,
+      "due": "2026-12-16T17:00:00.000Z",
+      "dueComplete": false,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard004",
+      "shortUrl": "https://trello.com/c/mpcard004",
+      "dateLastActivity": "2026-12-16T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard005",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listBacklog",
+      "name": "Autenticación de dos factores para administradores",
+      "desc": "Añadir una segunda verificación para el rol administrador y registrar los inicios de sesión en la bitácora.",
+      "descData": null,
+      "idMembers": [
+        "mpThomas"
+      ],
+      "idLabels": [
+        "lab_mejora",
+        "lab_seguridad"
+      ],
+      "labels": [
+        {
+          "id": "lab_mejora",
+          "name": "Mejora futura",
+          "color": "red"
+        },
+        {
+          "id": "lab_seguridad",
+          "name": "Seguridad",
+          "color": "gray"
+        }
+      ],
+      "pos": 5120,
+      "due": "2026-12-17T17:00:00.000Z",
+      "dueComplete": false,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard005",
+      "shortUrl": "https://trello.com/c/mpcard005",
+      "dateLastActivity": "2026-12-17T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard006",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listBacklog",
+      "name": "ADR de persistencia y migración a base de datos administrada",
+      "desc": "Documentar la decisión de usar SQLite embebido (`sql.js`) y plantear la migración futura a una base de datos administrada con volumen persistente.",
+      "descData": null,
+      "idMembers": [
+        "mpThomas"
+      ],
+      "idLabels": [
+        "lab_mejora",
+        "lab_planeacion"
+      ],
+      "labels": [
+        {
+          "id": "lab_mejora",
+          "name": "Mejora futura",
+          "color": "red"
+        },
+        {
+          "id": "lab_planeacion",
+          "name": "Planeación",
+          "color": "sky"
+        }
+      ],
+      "pos": 6144,
+      "due": "2026-12-18T17:00:00.000Z",
+      "dueComplete": false,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard006",
+      "shortUrl": "https://trello.com/c/mpcard006",
+      "dateLastActivity": "2026-12-18T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard007",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listBacklog",
+      "name": "Nuevas modalidades de torneo y tipos de pronóstico",
+      "desc": "Habilitar modalidades adicionales ( elimination directa con llaves, carreras, marcador exacto) manteniendo el modelo de opciones dinámicas por evento.",
+      "descData": null,
+      "idMembers": [
+        "mpMiguel",
+        "mpJuan"
+      ],
+      "idLabels": [
+        "lab_mejora",
+        "lab_frontend",
+        "lab_backend"
+      ],
+      "labels": [
+        {
+          "id": "lab_mejora",
+          "name": "Mejora futura",
+          "color": "red"
+        },
+        {
+          "id": "lab_frontend",
+          "name": "Frontend",
+          "color": "yellow"
+        },
+        {
+          "id": "lab_backend",
+          "name": "Backend",
+          "color": "orange"
+        }
+      ],
+      "pos": 7168,
+      "due": "2026-12-19T17:00:00.000Z",
+      "dueComplete": false,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard007",
+      "shortUrl": "https://trello.com/c/mpcard007",
+      "dateLastActivity": "2026-12-19T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard008",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listBacklog",
+      "name": "Monitoreo y alertas automáticas de conciliación",
+      "desc": "Ejecutar la conciliación saldo vs. movimientos al iniciar el servicio y generar una alerta cuando aparezca cualquier diferencia.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan"
+      ],
+      "idLabels": [
+        "lab_mejora",
+        "lab_qa"
+      ],
+      "labels": [
+        {
+          "id": "lab_mejora",
+          "name": "Mejora futura",
+          "color": "red"
+        },
+        {
+          "id": "lab_qa",
+          "name": "Pruebas / QA",
+          "color": "lime"
+        }
+      ],
+      "pos": 8192,
+      "due": "2026-12-20T17:00:00.000Z",
+      "dueComplete": false,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard008",
+      "shortUrl": "https://trello.com/c/mpcard008",
+      "dateLastActivity": "2026-12-20T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard009",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listPlaneacion",
+      "name": "Canvas de equipo y propósito del producto",
+      "desc": "Definimos juntos el propósito: construir MatchPoint, una plataforma que centralice torneos, pronósticos y créditos virtuales para Nexo Digital Labs.\n\nEquipo 1: Juan Camilo Ramirez, Thomas Mendoza y Miguel Oviedo.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan",
+        "mpThomas",
+        "mpMiguel"
+      ],
+      "idLabels": [
+        "lab_planeacion",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_planeacion",
+          "name": "Planeación",
+          "color": "sky"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 9216,
+      "due": "2026-10-20T17:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard009",
+      "shortUrl": "https://trello.com/c/mpcard009",
+      "dateLastActivity": "2026-10-20T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard010",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listPlaneacion",
+      "name": "Mapa de historias de usuario y releases (R1 / R2 / R3)",
+      "desc": "Mapa de historias con siete recorridos: cuenta y acceso, torneos y eventos, pronósticos, créditos virtuales, transacciones y trazabilidad, resultados y liquidación, consulta y seguimiento. Release 1 (MVP), Release 2 (Should) y Release 3 (Could).",
+      "descData": null,
+      "idMembers": [
+        "mpJuan",
+        "mpThomas",
+        "mpMiguel"
+      ],
+      "idLabels": [
+        "lab_planeacion",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_planeacion",
+          "name": "Planeación",
+          "color": "sky"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 10240,
+      "due": "2026-10-21T17:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard010",
+      "shortUrl": "https://trello.com/c/mpcard010",
+      "dateLastActivity": "2026-10-21T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard011",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listPlaneacion",
+      "name": "Definición de 9 historias de usuario con criterios INVEST",
+      "desc": "Cada historia se revisó con los siete criterios INVEST: completo, consistente, negociable, valioso, estimable, pequeño y comprobable.\n\nNota: el documento del Sprint 1 usaba otra numeración (HU001–HU014). Para el tablero final se unificó a la numeración HU01–HU09 usada en la review del Sprint 2, donde cada integrante presentó 3 historias.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan",
+        "mpThomas",
+        "mpMiguel"
+      ],
+      "idLabels": [
+        "lab_planeacion",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_planeacion",
+          "name": "Planeación",
+          "color": "sky"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 11264,
+      "due": "2026-10-22T17:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard011",
+      "shortUrl": "https://trello.com/c/mpcard011",
+      "dateLastActivity": "2026-10-22T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard012",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listPlaneacion",
+      "name": "Backlog estimado del Sprint 1 (9 HUs / 29 puntos)",
+      "desc": "Estimación en puntos de historia (escala 1, 2, 3, 5): HU01 3, HU02 3, HU03 3, HU04 5, HU05 2, HU06 3, HU07 3, HU08 2, HU09 5. Total: 29 puntos.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan",
+        "mpThomas",
+        "mpMiguel"
+      ],
+      "idLabels": [
+        "lab_planeacion",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_planeacion",
+          "name": "Planeación",
+          "color": "sky"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 12288,
+      "due": "2026-10-23T17:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard012",
+      "shortUrl": "https://trello.com/c/mpcard012",
+      "dateLastActivity": "2026-10-23T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard013",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listPlaneacion",
+      "name": "Reparto de historias y review del Sprint 1",
+      "desc": "Reparto final (3 historias por persona):\n\n• Thomas Mendoza: HU01 Registro, HU02 Inicio de sesión, HU09 Permisos por rol\n• Juan Camilo Ramirez: HU03 Crear torneo, HU04 Registrar evento, HU07 Asignar créditos\n• Miguel Oviedo: HU05 Consultar torneos, HU06 Ver eventos, HU08 Consultar saldo",
+      "descData": null,
+      "idMembers": [
+        "mpJuan",
+        "mpThomas",
+        "mpMiguel"
+      ],
+      "idLabels": [
+        "lab_planeacion",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_planeacion",
+          "name": "Planeación",
+          "color": "sky"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 13312,
+      "due": "2026-10-25T17:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard013",
+      "shortUrl": "https://trello.com/c/mpcard013",
+      "dateLastActivity": "2026-10-25T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard014",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listPlaneacion",
+      "name": "Retrospectiva Starfish del Sprint 1",
+      "desc": "Mantener: documentar antes de programar. Más: probar cada historia con casos concretos. Empezar: commits pequeños por historia. Menos: dejar trabajo para el último día. Dejar de: pegar contenido sin revisar el formato.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan",
+        "mpThomas",
+        "mpMiguel"
+      ],
+      "idLabels": [
+        "lab_planeacion",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_planeacion",
+          "name": "Planeación",
+          "color": "sky"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 14336,
+      "due": "2026-10-27T17:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard014",
+      "shortUrl": "https://trello.com/c/mpcard014",
+      "dateLastActivity": "2026-10-27T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard015",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint1",
+      "name": "HU01 · Registrarme con una identificación en la plataforma (3 pts)",
+      "desc": "Historia de usuario del Sprint 1 · Responsable: Thomas Mendoza · Estimación: 3 puntos.\n\nImplementada y validada en el producto final de MatchPoint.",
+      "descData": null,
+      "idMembers": [
+        "mpThomas"
+      ],
+      "idLabels": [
+        "lab_sprint1",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint1",
+          "name": "Sprint 1 · MVP",
+          "color": "blue"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 15360,
+      "due": "2026-11-03T17:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [
+        "mpcheck015"
+      ],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard015",
+      "shortUrl": "https://trello.com/c/mpcard015",
+      "dateLastActivity": "2026-11-03T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard016",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint1",
+      "name": "HU02 · Iniciar sesión (3 pts)",
+      "desc": "Historia de usuario del Sprint 1 · Responsable: Thomas Mendoza · Estimación: 3 puntos.\n\nImplementada y validada en el producto final de MatchPoint.",
+      "descData": null,
+      "idMembers": [
+        "mpThomas"
+      ],
+      "idLabels": [
+        "lab_sprint1",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint1",
+          "name": "Sprint 1 · MVP",
+          "color": "blue"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 16384,
+      "due": "2026-11-03T17:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [
+        "mpcheck016"
+      ],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard016",
+      "shortUrl": "https://trello.com/c/mpcard016",
+      "dateLastActivity": "2026-11-03T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard017",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint1",
+      "name": "HU03 · Crear un torneo (3 pts)",
+      "desc": "Historia de usuario del Sprint 1 · Responsable: Juan Camilo Ramirez · Estimación: 3 puntos.\n\nImplementada y validada en el producto final de MatchPoint.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan"
+      ],
+      "idLabels": [
+        "lab_sprint1",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint1",
+          "name": "Sprint 1 · MVP",
+          "color": "blue"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 17408,
+      "due": "2026-11-03T17:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [
+        "mpcheck017"
+      ],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard017",
+      "shortUrl": "https://trello.com/c/mpcard017",
+      "dateLastActivity": "2026-11-03T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard018",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint1",
+      "name": "HU04 · Registrar un evento con fecha y opciones de pronóstico (5 pts)",
+      "desc": "Historia de usuario del Sprint 1 · Responsable: Juan Camilo Ramirez · Estimación: 5 puntos.\n\nImplementada y validada en el producto final de MatchPoint.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan"
+      ],
+      "idLabels": [
+        "lab_sprint1",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint1",
+          "name": "Sprint 1 · MVP",
+          "color": "blue"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 18432,
+      "due": "2026-11-03T17:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [
+        "mpcheck018"
+      ],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard018",
+      "shortUrl": "https://trello.com/c/mpcard018",
+      "dateLastActivity": "2026-11-03T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard019",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint1",
+      "name": "HU05 · Consultar torneos disponibles (2 pts)",
+      "desc": "Historia de usuario del Sprint 1 · Responsable: Miguel Oviedo · Estimación: 2 puntos.\n\nImplementada y validada en el producto final de MatchPoint.",
+      "descData": null,
+      "idMembers": [
+        "mpMiguel"
+      ],
+      "idLabels": [
+        "lab_sprint1",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint1",
+          "name": "Sprint 1 · MVP",
+          "color": "blue"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 19456,
+      "due": "2026-11-03T17:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [
+        "mpcheck019"
+      ],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard019",
+      "shortUrl": "https://trello.com/c/mpcard019",
+      "dateLastActivity": "2026-11-03T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard020",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint1",
+      "name": "HU06 · Ver eventos, fechas y estado de cada uno (3 pts)",
+      "desc": "Historia de usuario del Sprint 1 · Responsable: Miguel Oviedo · Estimación: 3 puntos.\n\nImplementada y validada en el producto final de MatchPoint.",
+      "descData": null,
+      "idMembers": [
+        "mpMiguel"
+      ],
+      "idLabels": [
+        "lab_sprint1",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint1",
+          "name": "Sprint 1 · MVP",
+          "color": "blue"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 20480,
+      "due": "2026-11-05T17:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [
+        "mpcheck020"
+      ],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard020",
+      "shortUrl": "https://trello.com/c/mpcard020",
+      "dateLastActivity": "2026-11-05T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard021",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint1",
+      "name": "HU07 · Asignar créditos iniciales a un usuario (3 pts)",
+      "desc": "Historia de usuario del Sprint 1 · Responsable: Juan Camilo Ramirez · Estimación: 3 puntos.\n\nImplementada y validada en el producto final de MatchPoint.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan"
+      ],
+      "idLabels": [
+        "lab_sprint1",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint1",
+          "name": "Sprint 1 · MVP",
+          "color": "blue"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 21504,
+      "due": "2026-11-05T17:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [
+        "mpcheck021"
+      ],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard021",
+      "shortUrl": "https://trello.com/c/mpcard021",
+      "dateLastActivity": "2026-11-05T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard022",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint1",
+      "name": "HU08 · Consultar mi saldo de créditos (2 pts)",
+      "desc": "Historia de usuario del Sprint 1 · Responsable: Miguel Oviedo · Estimación: 2 puntos.\n\nImplementada y validada en el producto final de MatchPoint.",
+      "descData": null,
+      "idMembers": [
+        "mpMiguel"
+      ],
+      "idLabels": [
+        "lab_sprint1",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint1",
+          "name": "Sprint 1 · MVP",
+          "color": "blue"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 22528,
+      "due": "2026-11-05T17:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [
+        "mpcheck022"
+      ],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard022",
+      "shortUrl": "https://trello.com/c/mpcard022",
+      "dateLastActivity": "2026-11-05T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard023",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint1",
+      "name": "HU09 · Restringir acciones según el rol y los permisos (5 pts)",
+      "desc": "Historia de usuario del Sprint 1 · Responsable: Thomas Mendoza · Estimación: 5 puntos.\n\nImplementada y validada en el producto final de MatchPoint.",
+      "descData": null,
+      "idMembers": [
+        "mpThomas"
+      ],
+      "idLabels": [
+        "lab_sprint1",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint1",
+          "name": "Sprint 1 · MVP",
+          "color": "blue"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 23552,
+      "due": "2026-11-05T17:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [
+        "mpcheck023"
+      ],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard023",
+      "shortUrl": "https://trello.com/c/mpcard023",
+      "dateLastActivity": "2026-11-05T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard024",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint2",
+      "name": "Diseño del esquema SQLite y datos de ejemplo",
+      "desc": "Tablas: users, tournaments, events, predictions, transactions, settlement_runs, result_corrections y operation_log.\n\nRestricciones clave: saldo no negativo, un pronóstico por usuario y evento, claves de idempotencia únicas y versión de liquidación por evento.\n\nSQLite embebido con `sql.js` y binario WASM local: sin servidor de base de datos ni compilación nativa.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan"
+      ],
+      "idLabels": [
+        "lab_sprint2",
+        "lab_backend",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint2",
+          "name": "Sprint 2 · Producto final",
+          "color": "purple"
+        },
+        {
+          "id": "lab_backend",
+          "name": "Backend",
+          "color": "orange"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 24576,
+      "due": "2026-11-10T17:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [
+        "mpcheck024"
+      ],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard024",
+      "shortUrl": "https://trello.com/c/mpcard024",
+      "dateLastActivity": "2026-11-10T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard025",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint2",
+      "name": "API REST: registro, login y tokens JWT",
+      "desc": "Endpoints /api/auth/register, /api/auth/login, /api/auth/me (GET y PUT). Contraseñas cifradas con bcryptjs y sesión con JWT de 7 días.",
+      "descData": null,
+      "idMembers": [
+        "mpThomas"
+      ],
+      "idLabels": [
+        "lab_sprint2",
+        "lab_backend",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint2",
+          "name": "Sprint 2 · Producto final",
+          "color": "purple"
+        },
+        {
+          "id": "lab_backend",
+          "name": "Backend",
+          "color": "orange"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 25600,
+      "due": "2026-11-10T18:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard025",
+      "shortUrl": "https://trello.com/c/mpcard025",
+      "dateLastActivity": "2026-11-10T18:00:00.000Z"
+    },
+    {
+      "id": "mpcard026",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint2",
+      "name": "Guards de rol y aislamiento de datos por usuario",
+      "desc": "Middleware `authenticateToken` y `requireAdmin`. Las consultas /api/me/* filtran siempre por el usuario autenticado. Probado: un usuario recibe HTTP 403 al intentar /api/admin/*.",
+      "descData": null,
+      "idMembers": [
+        "mpThomas"
+      ],
+      "idLabels": [
+        "lab_sprint2",
+        "lab_backend",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint2",
+          "name": "Sprint 2 · Producto final",
+          "color": "purple"
+        },
+        {
+          "id": "lab_backend",
+          "name": "Backend",
+          "color": "orange"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 26624,
+      "due": "2026-11-11T17:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard026",
+      "shortUrl": "https://trello.com/c/mpcard026",
+      "dateLastActivity": "2026-11-11T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard027",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint2",
+      "name": "API de torneos y eventos con modalidades 1X2 y Ganador",
+      "desc": "Listado y detalle de torneos, listado de eventos con filtro por estado, estado efectivo calculado según opens_at / closes_at y opciones dinámicas por evento.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan"
+      ],
+      "idLabels": [
+        "lab_sprint2",
+        "lab_backend",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint2",
+          "name": "Sprint 2 · Producto final",
+          "color": "purple"
+        },
+        {
+          "id": "lab_backend",
+          "name": "Backend",
+          "color": "orange"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 27648,
+      "due": "2026-11-11T18:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard027",
+      "shortUrl": "https://trello.com/c/mpcard027",
+      "dateLastActivity": "2026-11-11T18:00:00.000Z"
+    },
+    {
+      "id": "mpcard028",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint2",
+      "name": "Registro de pronósticos con validación de opción y ventana",
+      "desc": "Validación de opción válida, evento abierto, saldo suficiente y un pronóstico por usuario/evento. Los pronósticos fuera del periodo son rechazados con HTTP 400.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan"
+      ],
+      "idLabels": [
+        "lab_sprint2",
+        "lab_backend",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint2",
+          "name": "Sprint 2 · Producto final",
+          "color": "purple"
+        },
+        {
+          "id": "lab_backend",
+          "name": "Backend",
+          "color": "orange"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 28672,
+      "due": "2026-11-12T17:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard028",
+      "shortUrl": "https://trello.com/c/mpcard028",
+      "dateLastActivity": "2026-11-12T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard029",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint2",
+      "name": "Control de saldo y movimientos de créditos (sin negativos)",
+      "desc": "Cada movimiento guarda tipo, cantidad, saldo resultante, referencia, descripción y fecha. La función moveCredits verifica el saldo antes de descontar y nunca permite valores negativos.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan"
+      ],
+      "idLabels": [
+        "lab_sprint2",
+        "lab_backend",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint2",
+          "name": "Sprint 2 · Producto final",
+          "color": "purple"
+        },
+        {
+          "id": "lab_backend",
+          "name": "Backend",
+          "color": "orange"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 29696,
+      "due": "2026-11-12T18:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard029",
+      "shortUrl": "https://trello.com/c/mpcard029",
+      "dateLastActivity": "2026-11-12T18:00:00.000Z"
+    },
+    {
+      "id": "mpcard030",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint2",
+      "name": "Idempotencia y transacciones atómicas",
+      "desc": "Clave de idempotencia única en pronósticos y movimientos. Dos peticiones simultáneas con la misma clave producen un solo pronóstico y un solo descuento.\n\nRevalidación de saldo y duplicados dentro de la transacción (BEGIN / COMMIT / ROLLBACK) y registro de operaciones exitosas, duplicadas y fallidas en `operation_log`.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan"
+      ],
+      "idLabels": [
+        "lab_sprint2",
+        "lab_backend",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint2",
+          "name": "Sprint 2 · Producto final",
+          "color": "purple"
+        },
+        {
+          "id": "lab_backend",
+          "name": "Backend",
+          "color": "orange"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 30720,
+      "due": "2026-11-13T17:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard030",
+      "shortUrl": "https://trello.com/c/mpcard030",
+      "dateLastActivity": "2026-11-13T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard031",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint2",
+      "name": "Publicación de resultados y liquidación versionada",
+      "desc": "Al publicar el resultado se determinan los acertados y se acreditan premios según el multiplicador. `settlement_runs` guarda una versión por liquidación; repetirla devuelve \"ya liquidado\" sin pagos dobles.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan"
+      ],
+      "idLabels": [
+        "lab_sprint2",
+        "lab_backend",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint2",
+          "name": "Sprint 2 · Producto final",
+          "color": "purple"
+        },
+        {
+          "id": "lab_backend",
+          "name": "Backend",
+          "color": "orange"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 31744,
+      "due": "2026-11-13T18:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard031",
+      "shortUrl": "https://trello.com/c/mpcard031",
+      "dateLastActivity": "2026-11-13T18:00:00.000Z"
+    },
+    {
+      "id": "mpcard032",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint2",
+      "name": "Corrección controlada con reversión e historial",
+      "desc": "La corrección revierte los premios anteriores con movimientos `correction_reversal`, vuelve a liquidar con el nuevo resultado y deja constancia en `result_corrections`. Ningún movimiento confirmado se elimina.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan"
+      ],
+      "idLabels": [
+        "lab_sprint2",
+        "lab_backend",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint2",
+          "name": "Sprint 2 · Producto final",
+          "color": "purple"
+        },
+        {
+          "id": "lab_backend",
+          "name": "Backend",
+          "color": "orange"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 32768,
+      "due": "2026-11-14T17:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard032",
+      "shortUrl": "https://trello.com/c/mpcard032",
+      "dateLastActivity": "2026-11-14T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard033",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint2",
+      "name": "Conciliación de saldos contra movimientos",
+      "desc": "Endpoint /api/admin/reconciliation compara el saldo guardado de cada usuario con la suma de sus movimientos y el número de apuestas. El panel muestra el resultado por usuario.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan"
+      ],
+      "idLabels": [
+        "lab_sprint2",
+        "lab_backend",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint2",
+          "name": "Sprint 2 · Producto final",
+          "color": "purple"
+        },
+        {
+          "id": "lab_backend",
+          "name": "Backend",
+          "color": "orange"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 33792,
+      "due": "2026-11-14T18:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard033",
+      "shortUrl": "https://trello.com/c/mpcard033",
+      "dateLastActivity": "2026-11-14T18:00:00.000Z"
+    },
+    {
+      "id": "mpcard034",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint2",
+      "name": "SPA: estructura, router y diseño responsive",
+      "desc": "Aplicación de página única en HTML/CSS/JavaScript vanilla, con router por hash, guardas de ruta, header con saldo en vivo, mensajes toast y diseño adaptable a móvil.",
+      "descData": null,
+      "idMembers": [
+        "mpMiguel"
+      ],
+      "idLabels": [
+        "lab_sprint2",
+        "lab_frontend",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint2",
+          "name": "Sprint 2 · Producto final",
+          "color": "purple"
+        },
+        {
+          "id": "lab_frontend",
+          "name": "Frontend",
+          "color": "yellow"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 34816,
+      "due": "2026-11-14T19:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard034",
+      "shortUrl": "https://trello.com/c/mpcard034",
+      "dateLastActivity": "2026-11-14T19:00:00.000Z"
+    },
+    {
+      "id": "mpcard035",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint2",
+      "name": "Vistas de torneos, eventos y detalle con pronóstico",
+      "desc": "Catálogo de torneos, filtro de eventos por estado, detalle de evento con opciones, resultado oficial, participaciones recientes y formulario de pronóstico.",
+      "descData": null,
+      "idMembers": [
+        "mpMiguel"
+      ],
+      "idLabels": [
+        "lab_sprint2",
+        "lab_frontend",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint2",
+          "name": "Sprint 2 · Producto final",
+          "color": "purple"
+        },
+        {
+          "id": "lab_frontend",
+          "name": "Frontend",
+          "color": "yellow"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 35840,
+      "due": "2026-11-15T10:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard035",
+      "shortUrl": "https://trello.com/c/mpcard035",
+      "dateLastActivity": "2026-11-15T10:00:00.000Z"
+    },
+    {
+      "id": "mpcard036",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint2",
+      "name": "Vistas de créditos, pronósticos y perfil",
+      "desc": "\"Mis créditos\" muestra saldo, saldo derivado y estado Conciliado; \"Mis pronósticos\" muestra estado y resultado; perfil permite actualizar el nombre.",
+      "descData": null,
+      "idMembers": [
+        "mpMiguel"
+      ],
+      "idLabels": [
+        "lab_sprint2",
+        "lab_frontend",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint2",
+          "name": "Sprint 2 · Producto final",
+          "color": "purple"
+        },
+        {
+          "id": "lab_frontend",
+          "name": "Frontend",
+          "color": "yellow"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 36864,
+      "due": "2026-11-15T12:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard036",
+      "shortUrl": "https://trello.com/c/mpcard036",
+      "dateLastActivity": "2026-11-15T12:00:00.000Z"
+    },
+    {
+      "id": "mpcard037",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint2",
+      "name": "Panel de administración con 4 pestañas",
+      "desc": "Resumen e indicadores, torneos y eventos, liquidación (publicar/cerrar/corregir) y movimientos con trazabilidad y ajuste manual de créditos.",
+      "descData": null,
+      "idMembers": [
+        "mpMiguel"
+      ],
+      "idLabels": [
+        "lab_sprint2",
+        "lab_frontend",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint2",
+          "name": "Sprint 2 · Producto final",
+          "color": "purple"
+        },
+        {
+          "id": "lab_frontend",
+          "name": "Frontend",
+          "color": "yellow"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 37888,
+      "due": "2026-11-15T15:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard037",
+      "shortUrl": "https://trello.com/c/mpcard037",
+      "dateLastActivity": "2026-11-15T15:00:00.000Z"
+    },
+    {
+      "id": "mpcard038",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint2",
+      "name": "Repositorio GitHub y commits del proyecto",
+      "desc": "Repositorio público https://github.com/tomsnap2104/matchpoint con el código completo, .gitignore y dos commits: implementación inicial y documentación de la URL pública.",
+      "descData": null,
+      "idMembers": [
+        "mpThomas"
+      ],
+      "idLabels": [
+        "lab_sprint2",
+        "lab_entrega",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint2",
+          "name": "Sprint 2 · Producto final",
+          "color": "purple"
+        },
+        {
+          "id": "lab_entrega",
+          "name": "Entrega",
+          "color": "pink"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 38912,
+      "due": "2026-11-16T10:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard038",
+      "shortUrl": "https://trello.com/c/mpcard038",
+      "dateLastActivity": "2026-11-16T10:00:00.000Z"
+    },
+    {
+      "id": "mpcard039",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listSprint2",
+      "name": "ZIP de entrega y documentación del proyecto",
+      "desc": "Archivo MatchPoint-Sprint2.zip con código, base de datos de ejemplo, README, retrospectiva y review. Incluye también este tablero y su vista previa.",
+      "descData": null,
+      "idMembers": [
+        "mpThomas"
+      ],
+      "idLabels": [
+        "lab_sprint2",
+        "lab_entrega",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_sprint2",
+          "name": "Sprint 2 · Producto final",
+          "color": "purple"
+        },
+        {
+          "id": "lab_entrega",
+          "name": "Entrega",
+          "color": "pink"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 39936,
+      "due": "2026-11-16T12:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard039",
+      "shortUrl": "https://trello.com/c/mpcard039",
+      "dateLastActivity": "2026-11-16T12:00:00.000Z"
+    },
+    {
+      "id": "mpcard040",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listQA",
+      "name": "28 pruebas end-to-end de la API (100% exitosas)",
+      "desc": "Cobertura: health, torneos, eventos, autenticación, roles, opción inválida, idempotencia, concurrencia, descuento, premio, liquidación duplicada, corrección, conciliación, trazabilidad, guards y frontend servido.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan"
+      ],
+      "idLabels": [
+        "lab_qa",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_qa",
+          "name": "Pruebas / QA",
+          "color": "lime"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 40960,
+      "due": "2026-11-17T09:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard040",
+      "shortUrl": "https://trello.com/c/mpcard040",
+      "dateLastActivity": "2026-11-17T09:00:00.000Z"
+    },
+    {
+      "id": "mpcard041",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listQA",
+      "name": "Verificación del SPA en navegador sin errores de consola",
+      "desc": "Probados inicio, login, evento, pronóstico desde la UI (saldo 125 → 110), créditos, administración, pestaña de liquidación y guard de rutas. Consola limpia.",
+      "descData": null,
+      "idMembers": [
+        "mpMiguel"
+      ],
+      "idLabels": [
+        "lab_qa",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_qa",
+          "name": "Pruebas / QA",
+          "color": "lime"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 41984,
+      "due": "2026-11-17T10:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard041",
+      "shortUrl": "https://trello.com/c/mpcard041",
+      "dateLastActivity": "2026-11-17T10:00:00.000Z"
+    },
+    {
+      "id": "mpcard042",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listQA",
+      "name": "Caso crítico: doble descuento y operaciones simultáneas",
+      "desc": "Dos solicitudes concurrentes con la misma clave de idempotencia → un solo pronóstico y un solo movimiento de apuesta. El reintento devuelve `duplicate: true` sin descontar.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan"
+      ],
+      "idLabels": [
+        "lab_qa",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_qa",
+          "name": "Pruebas / QA",
+          "color": "lime"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 43008,
+      "due": "2026-11-17T11:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard042",
+      "shortUrl": "https://trello.com/c/mpcard042",
+      "dateLastActivity": "2026-11-17T11:00:00.000Z"
+    },
+    {
+      "id": "mpcard043",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listQA",
+      "name": "Caso crítico: premios duplicados y corrección",
+      "desc": "Repetir la liquidación no aumenta el saldo. Corregir el resultado revierte el premio, vuelve a liquidar y conserva el historial de correcciones.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan"
+      ],
+      "idLabels": [
+        "lab_qa",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_qa",
+          "name": "Pruebas / QA",
+          "color": "lime"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 44032,
+      "due": "2026-11-17T12:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard043",
+      "shortUrl": "https://trello.com/c/mpcard043",
+      "dateLastActivity": "2026-11-17T12:00:00.000Z"
+    },
+    {
+      "id": "mpcard044",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listQA",
+      "name": "URL pública de demostración",
+      "desc": "Túnel público https://omissions-immigrants-tip-salad.trycloudflare.com apuntando al servidor local. Verificado con /api/health y con la carga de la SPA.",
+      "descData": null,
+      "idMembers": [
+        "mpThomas"
+      ],
+      "idLabels": [
+        "lab_entrega",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_entrega",
+          "name": "Entrega",
+          "color": "pink"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 45056,
+      "due": "2026-11-17T13:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard044",
+      "shortUrl": "https://trello.com/c/mpcard044",
+      "dateLastActivity": "2026-11-17T13:00:00.000Z"
+    },
+    {
+      "id": "mpcard045",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listQA",
+      "name": "README con instalación, endpoints y despliegue",
+      "desc": "Incluye stack, comandos, credenciales de prueba, tabla de endpoints, pruebas, URLs y notas de despliegue.",
+      "descData": null,
+      "idMembers": [
+        "mpThomas"
+      ],
+      "idLabels": [
+        "lab_entrega",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_entrega",
+          "name": "Entrega",
+          "color": "pink"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 46080,
+      "due": "2026-11-17T14:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard045",
+      "shortUrl": "https://trello.com/c/mpcard045",
+      "dateLastActivity": "2026-11-17T14:00:00.000Z"
+    },
+    {
+      "id": "mpcard046",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listQA",
+      "name": "REVIEW_SPRINT2.md: demo, criterios y evidencia",
+      "desc": "Guion de demostración de 11 pasos, matriz de criterios de aceptación, evidencia de pruebas y decisiones técnicas.",
+      "descData": null,
+      "idMembers": [
+        "mpMiguel"
+      ],
+      "idLabels": [
+        "lab_entrega",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_entrega",
+          "name": "Entrega",
+          "color": "pink"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 47104,
+      "due": "2026-11-17T15:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard046",
+      "shortUrl": "https://trello.com/c/mpcard046",
+      "dateLastActivity": "2026-11-17T15:00:00.000Z"
+    },
+    {
+      "id": "mpcard047",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listQA",
+      "name": "RETROSPECTIVA_SPRINT2.md: Starfish y mejoras",
+      "desc": "Mantener, hacer más, hacer menos, dejar de hacer y empezar a hacer, con aprendizajes y compromisos para el siguiente sprint.",
+      "descData": null,
+      "idMembers": [
+        "mpThomas"
+      ],
+      "idLabels": [
+        "lab_entrega",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_entrega",
+          "name": "Entrega",
+          "color": "pink"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 48128,
+      "due": "2026-11-17T16:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard047",
+      "shortUrl": "https://trello.com/c/mpcard047",
+      "dateLastActivity": "2026-11-17T16:00:00.000Z"
+    },
+    {
+      "id": "mpcard048",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listRetro",
+      "name": "Mantener: documentar antes de programar",
+      "desc": "El canvas, el mapa de historias y el backlog dieron una guía clara de qué construir. Mantener esta práctica en el siguiente sprint.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan",
+        "mpThomas",
+        "mpMiguel"
+      ],
+      "idLabels": [
+        "lab_planeacion",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_planeacion",
+          "name": "Planeación",
+          "color": "sky"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 49152,
+      "due": "2026-11-17T17:00:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard048",
+      "shortUrl": "https://trello.com/c/mpcard048",
+      "dateLastActivity": "2026-11-17T17:00:00.000Z"
+    },
+    {
+      "id": "mpcard049",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listRetro",
+      "name": "Más de: pruebas concretas y seguimiento corto",
+      "desc": "Probar cada historia con datos repetidos, fechas inválidas y permisos por rol; reuniones breves de seguimiento durante la semana.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan",
+        "mpThomas",
+        "mpMiguel"
+      ],
+      "idLabels": [
+        "lab_qa",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_qa",
+          "name": "Pruebas / QA",
+          "color": "lime"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 50176,
+      "due": "2026-11-17T17:10:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard049",
+      "shortUrl": "https://trello.com/c/mpcard049",
+      "dateLastActivity": "2026-11-17T17:10:00.000Z"
+    },
+    {
+      "id": "mpcard050",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listRetro",
+      "name": "Menos de: dejar el trabajo para los últimos días",
+      "desc": "Distribuir la carga durante el sprint para evitar concentrar la entrega al final.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan",
+        "mpThomas",
+        "mpMiguel"
+      ],
+      "idLabels": [
+        "lab_mejora",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_mejora",
+          "name": "Mejora futura",
+          "color": "red"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 51200,
+      "due": "2026-11-17T17:20:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard050",
+      "shortUrl": "https://trello.com/c/mpcard050",
+      "dateLastActivity": "2026-11-17T17:20:00.000Z"
+    },
+    {
+      "id": "mpcard051",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listRetro",
+      "name": "Empezar: commits pequeños por historia",
+      "desc": "Usar Git con commits frecuentes y mensajes descriptivos, accesibles desde cualquier equipo.",
+      "descData": null,
+      "idMembers": [
+        "mpThomas"
+      ],
+      "idLabels": [
+        "lab_entrega",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_entrega",
+          "name": "Entrega",
+          "color": "pink"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 52224,
+      "due": "2026-11-17T17:30:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard051",
+      "shortUrl": "https://trello.com/c/mpcard051",
+      "dateLastActivity": "2026-11-17T17:30:00.000Z"
+    },
+    {
+      "id": "mpcard052",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listRetro",
+      "name": "Dejar de: pegar contenido sin revisar el formato",
+      "desc": "Revisar siempre el formato al migrar contenido entre herramientas; en el sprint anterior se dañó el formato varias veces.",
+      "descData": null,
+      "idMembers": [
+        "mpMiguel"
+      ],
+      "idLabels": [
+        "lab_mejora",
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_mejora",
+          "name": "Mejora futura",
+          "color": "red"
+        },
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 53248,
+      "due": "2026-11-17T17:40:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard052",
+      "shortUrl": "https://trello.com/c/mpcard052",
+      "dateLastActivity": "2026-11-17T17:40:00.000Z"
+    },
+    {
+      "id": "mpcard053",
+      "idBoard": "mpMatchPointBoard",
+      "idList": "listRetro",
+      "name": "Aprendizaje clave: idempotencia y conciliación",
+      "desc": "La idempotencia evita cobros dobles por reintentos de red; la conciliación (saldo vs. suma de movimientos) es la prueba directa de que el sistema es confiable.",
+      "descData": null,
+      "idMembers": [
+        "mpJuan"
+      ],
+      "idLabels": [
+        "lab_hecho"
+      ],
+      "labels": [
+        {
+          "id": "lab_hecho",
+          "name": "Hecho",
+          "color": "green"
+        }
+      ],
+      "pos": 54272,
+      "due": "2026-11-17T17:50:00.000Z",
+      "dueComplete": true,
+      "start": null,
+      "closed": false,
+      "pinned": false,
+      "idChecklists": [],
+      "cover": null,
+      "manualCover": false,
+      "customFieldItems": [],
+      "url": "https://trello.com/c/mpcard053",
+      "shortUrl": "https://trello.com/c/mpcard053",
+      "dateLastActivity": "2026-11-17T17:50:00.000Z"
+    }
+  ],
+  "checklists": [
+    {
+      "id": "mpcheck001",
+      "name": "Criterios / pasos",
+      "idCard": "mpcard001",
+      "pos": 1024,
+      "checkItems": [
+        {
+          "id": "mpcheck001item1",
+          "name": "Crear cuenta en la plataforma de despliegue",
+          "state": "incomplete",
+          "pos": 1024
+        },
+        {
+          "id": "mpcheck001item2",
+          "name": "Conectar el repositorio de GitHub",
+          "state": "incomplete",
+          "pos": 2048
+        },
+        {
+          "id": "mpcheck001item3",
+          "name": "Configurar variables y persistencia",
+          "state": "incomplete",
+          "pos": 3072
+        },
+        {
+          "id": "mpcheck001item4",
+          "name": "Probar registro, pronóstico y liquidación en producción",
+          "state": "incomplete",
+          "pos": 4096
+        }
+      ]
+    },
+    {
+      "id": "mpcheck002",
+      "name": "Criterios / pasos",
+      "idCard": "mpcard002",
+      "pos": 1024,
+      "checkItems": [
+        {
+          "id": "mpcheck002item1",
+          "name": "Diseñar columnas del reporte",
+          "state": "incomplete",
+          "pos": 1024
+        },
+        {
+          "id": "mpcheck002item2",
+          "name": "Implementar endpoint de exportación",
+          "state": "incomplete",
+          "pos": 2048
+        },
+        {
+          "id": "mpcheck002item3",
+          "name": "Añadir botones de descarga en el panel admin",
+          "state": "incomplete",
+          "pos": 3072
+        }
+      ]
+    },
+    {
+      "id": "mpcheck015",
+      "name": "Criterios / pasos",
+      "idCard": "mpcard015",
+      "pos": 1024,
+      "checkItems": [
+        {
+          "id": "mpcheck015item1",
+          "name": "Formulario de registro con datos obligatorios",
+          "state": "complete",
+          "pos": 1024
+        },
+        {
+          "id": "mpcheck015item2",
+          "name": "Email repetido rechazado con mensaje claro",
+          "state": "complete",
+          "pos": 2048
+        },
+        {
+          "id": "mpcheck015item3",
+          "name": "Cuenta creada con rol Usuario y saldo 0",
+          "state": "complete",
+          "pos": 3072
+        }
+      ]
+    },
+    {
+      "id": "mpcheck016",
+      "name": "Criterios / pasos",
+      "idCard": "mpcard016",
+      "pos": 1024,
+      "checkItems": [
+        {
+          "id": "mpcheck016item1",
+          "name": "Credenciales correctas abren sesión JWT",
+          "state": "complete",
+          "pos": 1024
+        },
+        {
+          "id": "mpcheck016item2",
+          "name": "Credenciales incorrectas muestran error genérico",
+          "state": "complete",
+          "pos": 2048
+        },
+        {
+          "id": "mpcheck016item3",
+          "name": "Opción de cerrar sesión disponible",
+          "state": "complete",
+          "pos": 3072
+        }
+      ]
+    },
+    {
+      "id": "mpcheck017",
+      "name": "Criterios / pasos",
+      "idCard": "mpcard017",
+      "pos": 1024,
+      "checkItems": [
+        {
+          "id": "mpcheck017item1",
+          "name": "Solo el administrador puede crear torneos",
+          "state": "complete",
+          "pos": 1024
+        },
+        {
+          "id": "mpcheck017item2",
+          "name": "Nombre y slug obligatorios y únicos",
+          "state": "complete",
+          "pos": 2048
+        },
+        {
+          "id": "mpcheck017item3",
+          "name": "El torneo aparece en el catálogo",
+          "state": "complete",
+          "pos": 3072
+        }
+      ]
+    },
+    {
+      "id": "mpcheck018",
+      "name": "Criterios / pasos",
+      "idCard": "mpcard018",
+      "pos": 1024,
+      "checkItems": [
+        {
+          "id": "mpcheck018item1",
+          "name": "Nombre, fechas y al menos dos opciones",
+          "state": "complete",
+          "pos": 1024
+        },
+        {
+          "id": "mpcheck018item2",
+          "name": "Modalidad 1X2 o Ganador",
+          "state": "complete",
+          "pos": 2048
+        },
+        {
+          "id": "mpcheck018item3",
+          "name": "El evento queda asociado al torneo",
+          "state": "complete",
+          "pos": 3072
+        }
+      ]
+    },
+    {
+      "id": "mpcheck019",
+      "name": "Criterios / pasos",
+      "idCard": "mpcard019",
+      "pos": 1024,
+      "checkItems": [
+        {
+          "id": "mpcheck019item1",
+          "name": "Lista de torneos con nombre y descripción",
+          "state": "complete",
+          "pos": 1024
+        },
+        {
+          "id": "mpcheck019item2",
+          "name": "Navegación al detalle del torneo",
+          "state": "complete",
+          "pos": 2048
+        },
+        {
+          "id": "mpcheck019item3",
+          "name": "Mensaje cuando no hay torneos",
+          "state": "complete",
+          "pos": 3072
+        }
+      ]
+    },
+    {
+      "id": "mpcheck020",
+      "name": "Criterios / pasos",
+      "idCard": "mpcard020",
+      "pos": 1024,
+      "checkItems": [
+        {
+          "id": "mpcheck020item1",
+          "name": "Eventos ordenados por fecha",
+          "state": "complete",
+          "pos": 1024
+        },
+        {
+          "id": "mpcheck020item2",
+          "name": "Estado efectivo según ventana horaria",
+          "state": "complete",
+          "pos": 2048
+        },
+        {
+          "id": "mpcheck020item3",
+          "name": "Filtro por estado en el catálogo",
+          "state": "complete",
+          "pos": 3072
+        }
+      ]
+    },
+    {
+      "id": "mpcheck021",
+      "name": "Criterios / pasos",
+      "idCard": "mpcard021",
+      "pos": 1024,
+      "checkItems": [
+        {
+          "id": "mpcheck021item1",
+          "name": "Cantidad entera y distinta de cero",
+          "state": "complete",
+          "pos": 1024
+        },
+        {
+          "id": "mpcheck021item2",
+          "name": "El saldo aumenta exactamente",
+          "state": "complete",
+          "pos": 2048
+        },
+        {
+          "id": "mpcheck021item3",
+          "name": "Movimiento de asignación registrado",
+          "state": "complete",
+          "pos": 3072
+        }
+      ]
+    },
+    {
+      "id": "mpcheck022",
+      "name": "Criterios / pasos",
+      "idCard": "mpcard022",
+      "pos": 1024,
+      "checkItems": [
+        {
+          "id": "mpcheck022item1",
+          "name": "Saldo entero no negativo",
+          "state": "complete",
+          "pos": 1024
+        },
+        {
+          "id": "mpcheck022item2",
+          "name": "Solo el saldo del usuario con sesión",
+          "state": "complete",
+          "pos": 2048
+        },
+        {
+          "id": "mpcheck022item3",
+          "name": "Actualización visible al recargar",
+          "state": "complete",
+          "pos": 3072
+        }
+      ]
+    },
+    {
+      "id": "mpcheck023",
+      "name": "Criterios / pasos",
+      "idCard": "mpcard023",
+      "pos": 1024,
+      "checkItems": [
+        {
+          "id": "mpcheck023item1",
+          "name": "Roles Administrador y Usuario",
+          "state": "complete",
+          "pos": 1024
+        },
+        {
+          "id": "mpcheck023item2",
+          "name": "Validación en servidor, no solo en la UI",
+          "state": "complete",
+          "pos": 2048
+        },
+        {
+          "id": "mpcheck023item3",
+          "name": "Usuario solo ve sus propios datos",
+          "state": "complete",
+          "pos": 3072
+        }
+      ]
+    },
+    {
+      "id": "mpcheck024",
+      "name": "Criterios / pasos",
+      "idCard": "mpcard024",
+      "pos": 1024,
+      "checkItems": [
+        {
+          "id": "mpcheck024item1",
+          "name": "Esquema y restricciones CHECK/UNIQUE",
+          "state": "complete",
+          "pos": 1024
+        },
+        {
+          "id": "mpcheck024item2",
+          "name": "Datos de ejemplo (3 torneos, 6 eventos, 3 usuarios)",
+          "state": "complete",
+          "pos": 2048
+        },
+        {
+          "id": "mpcheck024item3",
+          "name": "Script npm run init-db",
+          "state": "complete",
+          "pos": 3072
+        }
+      ]
+    }
+  ]
+}

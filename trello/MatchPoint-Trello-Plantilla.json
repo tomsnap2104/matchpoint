@@ -1,0 +1,1139 @@
+{
+  "name": "MatchPoint · Tablero final del proyecto",
+  "desc": "Plataforma de gestión de torneos, pronósticos y créditos virtuales para Nexo Digital Labs.\n\nTablero actualizado con la fase de inicio, el Sprint 1 (MVP), el Sprint 2 (producto final), la validación, la entrega y las mejoras pendientes.\n\nEquipo: Juan Camilo Ramirez · Thomas Mendoza · Miguel Oviedo\nRepositorio: https://github.com/tomsnap2104/matchpoint\nDemo: https://omissions-immigrants-tip-salad.trycloudflare.com",
+  "defaultLists": false,
+  "labels": [
+    {
+      "id": "lab_hecho",
+      "name": "Hecho",
+      "color": "green"
+    },
+    {
+      "id": "lab_planeacion",
+      "name": "Planeación",
+      "color": "sky"
+    },
+    {
+      "id": "lab_sprint1",
+      "name": "Sprint 1 · MVP",
+      "color": "blue"
+    },
+    {
+      "id": "lab_sprint2",
+      "name": "Sprint 2 · Producto final",
+      "color": "purple"
+    },
+    {
+      "id": "lab_backend",
+      "name": "Backend",
+      "color": "orange"
+    },
+    {
+      "id": "lab_frontend",
+      "name": "Frontend",
+      "color": "yellow"
+    },
+    {
+      "id": "lab_qa",
+      "name": "Pruebas / QA",
+      "color": "lime"
+    },
+    {
+      "id": "lab_entrega",
+      "name": "Entrega",
+      "color": "pink"
+    },
+    {
+      "id": "lab_mejora",
+      "name": "Mejora futura",
+      "color": "red"
+    },
+    {
+      "id": "lab_seguridad",
+      "name": "Seguridad",
+      "color": "gray"
+    }
+  ],
+  "lists": [
+    {
+      "name": "📋 Backlog · Mejoras futuras",
+      "cards": [
+        {
+          "name": "Desplegar una URL permanente (Render / Railway)",
+          "desc": "El repositorio ya está listo para desplegar (`npm install` + `npm start`, puerto por variable `PORT`). La URL actual es un túnel de demostración que depende de que el servidor local siga activo.\n\n• Crear servicio web en Render o Railway desde https://github.com/tomsnap2104/matchpoint\n• Configurar `JWT_SECRET` y volumen persistente para `db/matchpoint.db`\n• Verificar el flujo completo en el entorno desplegado",
+          "pos": 1024,
+          "labels": [
+            "lab_entrega",
+            "lab_mejora"
+          ],
+          "idMembers": [
+            "mpThomas"
+          ],
+          "due": "2026-12-10T17:00:00.000Z",
+          "dueComplete": false,
+          "checklists": [
+            {
+              "name": "Criterios / pasos",
+              "items": [
+                {
+                  "name": "Crear cuenta en la plataforma de despliegue",
+                  "checked": false
+                },
+                {
+                  "name": "Conectar el repositorio de GitHub",
+                  "checked": false
+                },
+                {
+                  "name": "Configurar variables y persistencia",
+                  "checked": false
+                },
+                {
+                  "name": "Probar registro, pronóstico y liquidación en producción",
+                  "checked": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Reportes exportables de movimientos y liquidaciones (CSV/PDF)",
+          "desc": "Permitir al administrador descargar el historial de movimientos, pronósticos y liquidaciones para atender reclamaciones sin depender de la pantalla.",
+          "pos": 2048,
+          "labels": [
+            "lab_mejora",
+            "lab_frontend"
+          ],
+          "idMembers": [
+            "mpMiguel"
+          ],
+          "due": "2026-12-12T17:00:00.000Z",
+          "dueComplete": false,
+          "checklists": [
+            {
+              "name": "Criterios / pasos",
+              "items": [
+                {
+                  "name": "Diseñar columnas del reporte",
+                  "checked": false
+                },
+                {
+                  "name": "Implementar endpoint de exportación",
+                  "checked": false
+                },
+                {
+                  "name": "Añadir botones de descarga en el panel admin",
+                  "checked": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Aprobación doble para ajustes sensibles de créditos",
+          "desc": "Exigir que dos administradores confirmen los ajustes de créditos por encima de un umbral, conservando la bitácora de aprobaciones.",
+          "pos": 3072,
+          "labels": [
+            "lab_mejora",
+            "lab_seguridad"
+          ],
+          "idMembers": [
+            "mpJuan"
+          ],
+          "due": "2026-12-14T17:00:00.000Z",
+          "dueComplete": false,
+          "checklists": []
+        },
+        {
+          "name": "Pruebas de carga sobre liquidación y concurrencia",
+          "desc": "Ampliar las 28 pruebas E2E con escenarios de muchos pronósticos simultáneos y eventos con gran cantidad de participantes.",
+          "pos": 4096,
+          "labels": [
+            "lab_mejora",
+            "lab_qa"
+          ],
+          "idMembers": [
+            "mpJuan"
+          ],
+          "due": "2026-12-16T17:00:00.000Z",
+          "dueComplete": false,
+          "checklists": []
+        },
+        {
+          "name": "Autenticación de dos factores para administradores",
+          "desc": "Añadir una segunda verificación para el rol administrador y registrar los inicios de sesión en la bitácora.",
+          "pos": 5120,
+          "labels": [
+            "lab_mejora",
+            "lab_seguridad"
+          ],
+          "idMembers": [
+            "mpThomas"
+          ],
+          "due": "2026-12-17T17:00:00.000Z",
+          "dueComplete": false,
+          "checklists": []
+        },
+        {
+          "name": "ADR de persistencia y migración a base de datos administrada",
+          "desc": "Documentar la decisión de usar SQLite embebido (`sql.js`) y plantear la migración futura a una base de datos administrada con volumen persistente.",
+          "pos": 6144,
+          "labels": [
+            "lab_mejora",
+            "lab_planeacion"
+          ],
+          "idMembers": [
+            "mpThomas"
+          ],
+          "due": "2026-12-18T17:00:00.000Z",
+          "dueComplete": false,
+          "checklists": []
+        },
+        {
+          "name": "Nuevas modalidades de torneo y tipos de pronóstico",
+          "desc": "Habilitar modalidades adicionales ( elimination directa con llaves, carreras, marcador exacto) manteniendo el modelo de opciones dinámicas por evento.",
+          "pos": 7168,
+          "labels": [
+            "lab_mejora",
+            "lab_frontend",
+            "lab_backend"
+          ],
+          "idMembers": [
+            "mpMiguel",
+            "mpJuan"
+          ],
+          "due": "2026-12-19T17:00:00.000Z",
+          "dueComplete": false,
+          "checklists": []
+        },
+        {
+          "name": "Monitoreo y alertas automáticas de conciliación",
+          "desc": "Ejecutar la conciliación saldo vs. movimientos al iniciar el servicio y generar una alerta cuando aparezca cualquier diferencia.",
+          "pos": 8192,
+          "labels": [
+            "lab_mejora",
+            "lab_qa"
+          ],
+          "idMembers": [
+            "mpJuan"
+          ],
+          "due": "2026-12-20T17:00:00.000Z",
+          "dueComplete": false,
+          "checklists": []
+        }
+      ]
+    },
+    {
+      "name": "🧭 Planeación · Fase de inicio",
+      "cards": [
+        {
+          "name": "Canvas de equipo y propósito del producto",
+          "desc": "Definimos juntos el propósito: construir MatchPoint, una plataforma que centralice torneos, pronósticos y créditos virtuales para Nexo Digital Labs.\n\nEquipo 1: Juan Camilo Ramirez, Thomas Mendoza y Miguel Oviedo.",
+          "pos": 1024,
+          "labels": [
+            "lab_planeacion",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan",
+            "mpThomas",
+            "mpMiguel"
+          ],
+          "due": "2026-10-20T17:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Mapa de historias de usuario y releases (R1 / R2 / R3)",
+          "desc": "Mapa de historias con siete recorridos: cuenta y acceso, torneos y eventos, pronósticos, créditos virtuales, transacciones y trazabilidad, resultados y liquidación, consulta y seguimiento. Release 1 (MVP), Release 2 (Should) y Release 3 (Could).",
+          "pos": 2048,
+          "labels": [
+            "lab_planeacion",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan",
+            "mpThomas",
+            "mpMiguel"
+          ],
+          "due": "2026-10-21T17:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Definición de 9 historias de usuario con criterios INVEST",
+          "desc": "Cada historia se revisó con los siete criterios INVEST: completo, consistente, negociable, valioso, estimable, pequeño y comprobable.\n\nNota: el documento del Sprint 1 usaba otra numeración (HU001–HU014). Para el tablero final se unificó a la numeración HU01–HU09 usada en la review del Sprint 2, donde cada integrante presentó 3 historias.",
+          "pos": 3072,
+          "labels": [
+            "lab_planeacion",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan",
+            "mpThomas",
+            "mpMiguel"
+          ],
+          "due": "2026-10-22T17:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Backlog estimado del Sprint 1 (9 HUs / 29 puntos)",
+          "desc": "Estimación en puntos de historia (escala 1, 2, 3, 5): HU01 3, HU02 3, HU03 3, HU04 5, HU05 2, HU06 3, HU07 3, HU08 2, HU09 5. Total: 29 puntos.",
+          "pos": 4096,
+          "labels": [
+            "lab_planeacion",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan",
+            "mpThomas",
+            "mpMiguel"
+          ],
+          "due": "2026-10-23T17:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Reparto de historias y review del Sprint 1",
+          "desc": "Reparto final (3 historias por persona):\n\n• Thomas Mendoza: HU01 Registro, HU02 Inicio de sesión, HU09 Permisos por rol\n• Juan Camilo Ramirez: HU03 Crear torneo, HU04 Registrar evento, HU07 Asignar créditos\n• Miguel Oviedo: HU05 Consultar torneos, HU06 Ver eventos, HU08 Consultar saldo",
+          "pos": 5120,
+          "labels": [
+            "lab_planeacion",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan",
+            "mpThomas",
+            "mpMiguel"
+          ],
+          "due": "2026-10-25T17:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Retrospectiva Starfish del Sprint 1",
+          "desc": "Mantener: documentar antes de programar. Más: probar cada historia con casos concretos. Empezar: commits pequeños por historia. Menos: dejar trabajo para el último día. Dejar de: pegar contenido sin revisar el formato.",
+          "pos": 6144,
+          "labels": [
+            "lab_planeacion",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan",
+            "mpThomas",
+            "mpMiguel"
+          ],
+          "due": "2026-10-27T17:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        }
+      ]
+    },
+    {
+      "name": "✅ Sprint 1 · MVP (completado)",
+      "cards": [
+        {
+          "name": "HU01 · Registrarme con una identificación en la plataforma (3 pts)",
+          "desc": "Historia de usuario del Sprint 1 · Responsable: Thomas Mendoza · Estimación: 3 puntos.\n\nImplementada y validada en el producto final de MatchPoint.",
+          "pos": 1024,
+          "labels": [
+            "lab_sprint1",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpThomas"
+          ],
+          "due": "2026-11-03T17:00:00.000Z",
+          "dueComplete": true,
+          "checklists": [
+            {
+              "name": "Criterios / pasos",
+              "items": [
+                {
+                  "name": "Formulario de registro con datos obligatorios",
+                  "checked": true
+                },
+                {
+                  "name": "Email repetido rechazado con mensaje claro",
+                  "checked": true
+                },
+                {
+                  "name": "Cuenta creada con rol Usuario y saldo 0",
+                  "checked": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HU02 · Iniciar sesión (3 pts)",
+          "desc": "Historia de usuario del Sprint 1 · Responsable: Thomas Mendoza · Estimación: 3 puntos.\n\nImplementada y validada en el producto final de MatchPoint.",
+          "pos": 2048,
+          "labels": [
+            "lab_sprint1",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpThomas"
+          ],
+          "due": "2026-11-03T17:00:00.000Z",
+          "dueComplete": true,
+          "checklists": [
+            {
+              "name": "Criterios / pasos",
+              "items": [
+                {
+                  "name": "Credenciales correctas abren sesión JWT",
+                  "checked": true
+                },
+                {
+                  "name": "Credenciales incorrectas muestran error genérico",
+                  "checked": true
+                },
+                {
+                  "name": "Opción de cerrar sesión disponible",
+                  "checked": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HU03 · Crear un torneo (3 pts)",
+          "desc": "Historia de usuario del Sprint 1 · Responsable: Juan Camilo Ramirez · Estimación: 3 puntos.\n\nImplementada y validada en el producto final de MatchPoint.",
+          "pos": 3072,
+          "labels": [
+            "lab_sprint1",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan"
+          ],
+          "due": "2026-11-03T17:00:00.000Z",
+          "dueComplete": true,
+          "checklists": [
+            {
+              "name": "Criterios / pasos",
+              "items": [
+                {
+                  "name": "Solo el administrador puede crear torneos",
+                  "checked": true
+                },
+                {
+                  "name": "Nombre y slug obligatorios y únicos",
+                  "checked": true
+                },
+                {
+                  "name": "El torneo aparece en el catálogo",
+                  "checked": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HU04 · Registrar un evento con fecha y opciones de pronóstico (5 pts)",
+          "desc": "Historia de usuario del Sprint 1 · Responsable: Juan Camilo Ramirez · Estimación: 5 puntos.\n\nImplementada y validada en el producto final de MatchPoint.",
+          "pos": 4096,
+          "labels": [
+            "lab_sprint1",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan"
+          ],
+          "due": "2026-11-03T17:00:00.000Z",
+          "dueComplete": true,
+          "checklists": [
+            {
+              "name": "Criterios / pasos",
+              "items": [
+                {
+                  "name": "Nombre, fechas y al menos dos opciones",
+                  "checked": true
+                },
+                {
+                  "name": "Modalidad 1X2 o Ganador",
+                  "checked": true
+                },
+                {
+                  "name": "El evento queda asociado al torneo",
+                  "checked": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HU05 · Consultar torneos disponibles (2 pts)",
+          "desc": "Historia de usuario del Sprint 1 · Responsable: Miguel Oviedo · Estimación: 2 puntos.\n\nImplementada y validada en el producto final de MatchPoint.",
+          "pos": 5120,
+          "labels": [
+            "lab_sprint1",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpMiguel"
+          ],
+          "due": "2026-11-03T17:00:00.000Z",
+          "dueComplete": true,
+          "checklists": [
+            {
+              "name": "Criterios / pasos",
+              "items": [
+                {
+                  "name": "Lista de torneos con nombre y descripción",
+                  "checked": true
+                },
+                {
+                  "name": "Navegación al detalle del torneo",
+                  "checked": true
+                },
+                {
+                  "name": "Mensaje cuando no hay torneos",
+                  "checked": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HU06 · Ver eventos, fechas y estado de cada uno (3 pts)",
+          "desc": "Historia de usuario del Sprint 1 · Responsable: Miguel Oviedo · Estimación: 3 puntos.\n\nImplementada y validada en el producto final de MatchPoint.",
+          "pos": 6144,
+          "labels": [
+            "lab_sprint1",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpMiguel"
+          ],
+          "due": "2026-11-05T17:00:00.000Z",
+          "dueComplete": true,
+          "checklists": [
+            {
+              "name": "Criterios / pasos",
+              "items": [
+                {
+                  "name": "Eventos ordenados por fecha",
+                  "checked": true
+                },
+                {
+                  "name": "Estado efectivo según ventana horaria",
+                  "checked": true
+                },
+                {
+                  "name": "Filtro por estado en el catálogo",
+                  "checked": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HU07 · Asignar créditos iniciales a un usuario (3 pts)",
+          "desc": "Historia de usuario del Sprint 1 · Responsable: Juan Camilo Ramirez · Estimación: 3 puntos.\n\nImplementada y validada en el producto final de MatchPoint.",
+          "pos": 7168,
+          "labels": [
+            "lab_sprint1",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan"
+          ],
+          "due": "2026-11-05T17:00:00.000Z",
+          "dueComplete": true,
+          "checklists": [
+            {
+              "name": "Criterios / pasos",
+              "items": [
+                {
+                  "name": "Cantidad entera y distinta de cero",
+                  "checked": true
+                },
+                {
+                  "name": "El saldo aumenta exactamente",
+                  "checked": true
+                },
+                {
+                  "name": "Movimiento de asignación registrado",
+                  "checked": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HU08 · Consultar mi saldo de créditos (2 pts)",
+          "desc": "Historia de usuario del Sprint 1 · Responsable: Miguel Oviedo · Estimación: 2 puntos.\n\nImplementada y validada en el producto final de MatchPoint.",
+          "pos": 8192,
+          "labels": [
+            "lab_sprint1",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpMiguel"
+          ],
+          "due": "2026-11-05T17:00:00.000Z",
+          "dueComplete": true,
+          "checklists": [
+            {
+              "name": "Criterios / pasos",
+              "items": [
+                {
+                  "name": "Saldo entero no negativo",
+                  "checked": true
+                },
+                {
+                  "name": "Solo el saldo del usuario con sesión",
+                  "checked": true
+                },
+                {
+                  "name": "Actualización visible al recargar",
+                  "checked": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HU09 · Restringir acciones según el rol y los permisos (5 pts)",
+          "desc": "Historia de usuario del Sprint 1 · Responsable: Thomas Mendoza · Estimación: 5 puntos.\n\nImplementada y validada en el producto final de MatchPoint.",
+          "pos": 9216,
+          "labels": [
+            "lab_sprint1",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpThomas"
+          ],
+          "due": "2026-11-05T17:00:00.000Z",
+          "dueComplete": true,
+          "checklists": [
+            {
+              "name": "Criterios / pasos",
+              "items": [
+                {
+                  "name": "Roles Administrador y Usuario",
+                  "checked": true
+                },
+                {
+                  "name": "Validación en servidor, no solo en la UI",
+                  "checked": true
+                },
+                {
+                  "name": "Usuario solo ve sus propios datos",
+                  "checked": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "🚀 Sprint 2 · Producto final (completado)",
+      "cards": [
+        {
+          "name": "Diseño del esquema SQLite y datos de ejemplo",
+          "desc": "Tablas: users, tournaments, events, predictions, transactions, settlement_runs, result_corrections y operation_log.\n\nRestricciones clave: saldo no negativo, un pronóstico por usuario y evento, claves de idempotencia únicas y versión de liquidación por evento.\n\nSQLite embebido con `sql.js` y binario WASM local: sin servidor de base de datos ni compilación nativa.",
+          "pos": 1024,
+          "labels": [
+            "lab_sprint2",
+            "lab_backend",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan"
+          ],
+          "due": "2026-11-10T17:00:00.000Z",
+          "dueComplete": true,
+          "checklists": [
+            {
+              "name": "Criterios / pasos",
+              "items": [
+                {
+                  "name": "Esquema y restricciones CHECK/UNIQUE",
+                  "checked": true
+                },
+                {
+                  "name": "Datos de ejemplo (3 torneos, 6 eventos, 3 usuarios)",
+                  "checked": true
+                },
+                {
+                  "name": "Script npm run init-db",
+                  "checked": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "API REST: registro, login y tokens JWT",
+          "desc": "Endpoints /api/auth/register, /api/auth/login, /api/auth/me (GET y PUT). Contraseñas cifradas con bcryptjs y sesión con JWT de 7 días.",
+          "pos": 2048,
+          "labels": [
+            "lab_sprint2",
+            "lab_backend",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpThomas"
+          ],
+          "due": "2026-11-10T18:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Guards de rol y aislamiento de datos por usuario",
+          "desc": "Middleware `authenticateToken` y `requireAdmin`. Las consultas /api/me/* filtran siempre por el usuario autenticado. Probado: un usuario recibe HTTP 403 al intentar /api/admin/*.",
+          "pos": 3072,
+          "labels": [
+            "lab_sprint2",
+            "lab_backend",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpThomas"
+          ],
+          "due": "2026-11-11T17:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "API de torneos y eventos con modalidades 1X2 y Ganador",
+          "desc": "Listado y detalle de torneos, listado de eventos con filtro por estado, estado efectivo calculado según opens_at / closes_at y opciones dinámicas por evento.",
+          "pos": 4096,
+          "labels": [
+            "lab_sprint2",
+            "lab_backend",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan"
+          ],
+          "due": "2026-11-11T18:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Registro de pronósticos con validación de opción y ventana",
+          "desc": "Validación de opción válida, evento abierto, saldo suficiente y un pronóstico por usuario/evento. Los pronósticos fuera del periodo son rechazados con HTTP 400.",
+          "pos": 5120,
+          "labels": [
+            "lab_sprint2",
+            "lab_backend",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan"
+          ],
+          "due": "2026-11-12T17:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Control de saldo y movimientos de créditos (sin negativos)",
+          "desc": "Cada movimiento guarda tipo, cantidad, saldo resultante, referencia, descripción y fecha. La función moveCredits verifica el saldo antes de descontar y nunca permite valores negativos.",
+          "pos": 6144,
+          "labels": [
+            "lab_sprint2",
+            "lab_backend",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan"
+          ],
+          "due": "2026-11-12T18:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Idempotencia y transacciones atómicas",
+          "desc": "Clave de idempotencia única en pronósticos y movimientos. Dos peticiones simultáneas con la misma clave producen un solo pronóstico y un solo descuento.\n\nRevalidación de saldo y duplicados dentro de la transacción (BEGIN / COMMIT / ROLLBACK) y registro de operaciones exitosas, duplicadas y fallidas en `operation_log`.",
+          "pos": 7168,
+          "labels": [
+            "lab_sprint2",
+            "lab_backend",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan"
+          ],
+          "due": "2026-11-13T17:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Publicación de resultados y liquidación versionada",
+          "desc": "Al publicar el resultado se determinan los acertados y se acreditan premios según el multiplicador. `settlement_runs` guarda una versión por liquidación; repetirla devuelve \"ya liquidado\" sin pagos dobles.",
+          "pos": 8192,
+          "labels": [
+            "lab_sprint2",
+            "lab_backend",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan"
+          ],
+          "due": "2026-11-13T18:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Corrección controlada con reversión e historial",
+          "desc": "La corrección revierte los premios anteriores con movimientos `correction_reversal`, vuelve a liquidar con el nuevo resultado y deja constancia en `result_corrections`. Ningún movimiento confirmado se elimina.",
+          "pos": 9216,
+          "labels": [
+            "lab_sprint2",
+            "lab_backend",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan"
+          ],
+          "due": "2026-11-14T17:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Conciliación de saldos contra movimientos",
+          "desc": "Endpoint /api/admin/reconciliation compara el saldo guardado de cada usuario con la suma de sus movimientos y el número de apuestas. El panel muestra el resultado por usuario.",
+          "pos": 10240,
+          "labels": [
+            "lab_sprint2",
+            "lab_backend",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan"
+          ],
+          "due": "2026-11-14T18:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "SPA: estructura, router y diseño responsive",
+          "desc": "Aplicación de página única en HTML/CSS/JavaScript vanilla, con router por hash, guardas de ruta, header con saldo en vivo, mensajes toast y diseño adaptable a móvil.",
+          "pos": 11264,
+          "labels": [
+            "lab_sprint2",
+            "lab_frontend",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpMiguel"
+          ],
+          "due": "2026-11-14T19:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Vistas de torneos, eventos y detalle con pronóstico",
+          "desc": "Catálogo de torneos, filtro de eventos por estado, detalle de evento con opciones, resultado oficial, participaciones recientes y formulario de pronóstico.",
+          "pos": 12288,
+          "labels": [
+            "lab_sprint2",
+            "lab_frontend",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpMiguel"
+          ],
+          "due": "2026-11-15T10:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Vistas de créditos, pronósticos y perfil",
+          "desc": "\"Mis créditos\" muestra saldo, saldo derivado y estado Conciliado; \"Mis pronósticos\" muestra estado y resultado; perfil permite actualizar el nombre.",
+          "pos": 13312,
+          "labels": [
+            "lab_sprint2",
+            "lab_frontend",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpMiguel"
+          ],
+          "due": "2026-11-15T12:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Panel de administración con 4 pestañas",
+          "desc": "Resumen e indicadores, torneos y eventos, liquidación (publicar/cerrar/corregir) y movimientos con trazabilidad y ajuste manual de créditos.",
+          "pos": 14336,
+          "labels": [
+            "lab_sprint2",
+            "lab_frontend",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpMiguel"
+          ],
+          "due": "2026-11-15T15:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Repositorio GitHub y commits del proyecto",
+          "desc": "Repositorio público https://github.com/tomsnap2104/matchpoint con el código completo, .gitignore y dos commits: implementación inicial y documentación de la URL pública.",
+          "pos": 15360,
+          "labels": [
+            "lab_sprint2",
+            "lab_entrega",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpThomas"
+          ],
+          "due": "2026-11-16T10:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "ZIP de entrega y documentación del proyecto",
+          "desc": "Archivo MatchPoint-Sprint2.zip con código, base de datos de ejemplo, README, retrospectiva y review. Incluye también este tablero y su vista previa.",
+          "pos": 16384,
+          "labels": [
+            "lab_sprint2",
+            "lab_entrega",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpThomas"
+          ],
+          "due": "2026-11-16T12:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        }
+      ]
+    },
+    {
+      "name": "🧪 Validación · QA y entrega (completado)",
+      "cards": [
+        {
+          "name": "28 pruebas end-to-end de la API (100% exitosas)",
+          "desc": "Cobertura: health, torneos, eventos, autenticación, roles, opción inválida, idempotencia, concurrencia, descuento, premio, liquidación duplicada, corrección, conciliación, trazabilidad, guards y frontend servido.",
+          "pos": 1024,
+          "labels": [
+            "lab_qa",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan"
+          ],
+          "due": "2026-11-17T09:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Verificación del SPA en navegador sin errores de consola",
+          "desc": "Probados inicio, login, evento, pronóstico desde la UI (saldo 125 → 110), créditos, administración, pestaña de liquidación y guard de rutas. Consola limpia.",
+          "pos": 2048,
+          "labels": [
+            "lab_qa",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpMiguel"
+          ],
+          "due": "2026-11-17T10:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Caso crítico: doble descuento y operaciones simultáneas",
+          "desc": "Dos solicitudes concurrentes con la misma clave de idempotencia → un solo pronóstico y un solo movimiento de apuesta. El reintento devuelve `duplicate: true` sin descontar.",
+          "pos": 3072,
+          "labels": [
+            "lab_qa",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan"
+          ],
+          "due": "2026-11-17T11:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Caso crítico: premios duplicados y corrección",
+          "desc": "Repetir la liquidación no aumenta el saldo. Corregir el resultado revierte el premio, vuelve a liquidar y conserva el historial de correcciones.",
+          "pos": 4096,
+          "labels": [
+            "lab_qa",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan"
+          ],
+          "due": "2026-11-17T12:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "URL pública de demostración",
+          "desc": "Túnel público https://omissions-immigrants-tip-salad.trycloudflare.com apuntando al servidor local. Verificado con /api/health y con la carga de la SPA.",
+          "pos": 5120,
+          "labels": [
+            "lab_entrega",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpThomas"
+          ],
+          "due": "2026-11-17T13:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "README con instalación, endpoints y despliegue",
+          "desc": "Incluye stack, comandos, credenciales de prueba, tabla de endpoints, pruebas, URLs y notas de despliegue.",
+          "pos": 6144,
+          "labels": [
+            "lab_entrega",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpThomas"
+          ],
+          "due": "2026-11-17T14:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "REVIEW_SPRINT2.md: demo, criterios y evidencia",
+          "desc": "Guion de demostración de 11 pasos, matriz de criterios de aceptación, evidencia de pruebas y decisiones técnicas.",
+          "pos": 7168,
+          "labels": [
+            "lab_entrega",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpMiguel"
+          ],
+          "due": "2026-11-17T15:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "RETROSPECTIVA_SPRINT2.md: Starfish y mejoras",
+          "desc": "Mantener, hacer más, hacer menos, dejar de hacer y empezar a hacer, con aprendizajes y compromisos para el siguiente sprint.",
+          "pos": 8192,
+          "labels": [
+            "lab_entrega",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpThomas"
+          ],
+          "due": "2026-11-17T16:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        }
+      ]
+    },
+    {
+      "name": "🔁 Retrospectiva · Aprendizajes (completado)",
+      "cards": [
+        {
+          "name": "Mantener: documentar antes de programar",
+          "desc": "El canvas, el mapa de historias y el backlog dieron una guía clara de qué construir. Mantener esta práctica en el siguiente sprint.",
+          "pos": 1024,
+          "labels": [
+            "lab_planeacion",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan",
+            "mpThomas",
+            "mpMiguel"
+          ],
+          "due": "2026-11-17T17:00:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Más de: pruebas concretas y seguimiento corto",
+          "desc": "Probar cada historia con datos repetidos, fechas inválidas y permisos por rol; reuniones breves de seguimiento durante la semana.",
+          "pos": 2048,
+          "labels": [
+            "lab_qa",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan",
+            "mpThomas",
+            "mpMiguel"
+          ],
+          "due": "2026-11-17T17:10:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Menos de: dejar el trabajo para los últimos días",
+          "desc": "Distribuir la carga durante el sprint para evitar concentrar la entrega al final.",
+          "pos": 3072,
+          "labels": [
+            "lab_mejora",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan",
+            "mpThomas",
+            "mpMiguel"
+          ],
+          "due": "2026-11-17T17:20:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Empezar: commits pequeños por historia",
+          "desc": "Usar Git con commits frecuentes y mensajes descriptivos, accesibles desde cualquier equipo.",
+          "pos": 4096,
+          "labels": [
+            "lab_entrega",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpThomas"
+          ],
+          "due": "2026-11-17T17:30:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Dejar de: pegar contenido sin revisar el formato",
+          "desc": "Revisar siempre el formato al migrar contenido entre herramientas; en el sprint anterior se dañó el formato varias veces.",
+          "pos": 5120,
+          "labels": [
+            "lab_mejora",
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpMiguel"
+          ],
+          "due": "2026-11-17T17:40:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        },
+        {
+          "name": "Aprendizaje clave: idempotencia y conciliación",
+          "desc": "La idempotencia evita cobros dobles por reintentos de red; la conciliación (saldo vs. suma de movimientos) es la prueba directa de que el sistema es confiable.",
+          "pos": 6144,
+          "labels": [
+            "lab_hecho"
+          ],
+          "idMembers": [
+            "mpJuan"
+          ],
+          "due": "2026-11-17T17:50:00.000Z",
+          "dueComplete": true,
+          "checklists": []
+        }
+      ]
+    }
+  ]
+}

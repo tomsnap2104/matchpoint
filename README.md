@@ -147,6 +147,19 @@ En entornos con sistema de archivos efímero, la base de datos se regenera autom
 
 ---
 
+## Tablero Trello
+
+El tablero actualizado del proyecto (fase de inicio, Sprint 1, Sprint 2, QA, entrega, retrospectiva y mejoras) está en la carpeta `trello/`:
+
+- `MatchPoint-Trello.json` — importable desde Trello (formato de exportación completa).
+- `MatchPoint-Trello-Plantilla.json` — formato plantilla para Power-Ups y herramientas compatibles.
+- `Tablero-Trello.html` — vista previa visual del tablero.
+- `README-TRELLO.md` — instrucciones de importación y reparto de responsabilidades.
+
+Equipo: **Juan Camilo Ramirez, Thomas Mendoza y Miguel Oviedo**. Para regenerar los archivos después de editar el generador: `node trello/generar-trello.js`.
+
+---
+
 ## Estructura
 
 ```
@@ -160,6 +173,12 @@ matchpoint/
 │   ├── js/api.js       # cliente API
 │   ├── js/app.js       # router y vistas SPA
 │   └── index.html
+├── trello/
+│   ├── generar-trello.js                 # fuente única del tablero
+│   ├── MatchPoint-Trello.json            # importar a Trello
+│   ├── MatchPoint-Trello-Plantilla.json  # formato plantilla
+│   ├── Tablero-Trello.html               # vista previa
+│   └── README-TRELLO.md                  # instrucciones
 ├── server.js           # API REST
 ├── package.json
 ├── README.md
