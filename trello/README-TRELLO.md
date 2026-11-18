@@ -2,6 +2,12 @@
 
 Tablero actualizado con **todo el trabajo realizado**: fase de inicio, Sprint 1 (MVP), Sprint 2 (producto final), validación, entrega y mejoras futuras.
 
+## Tablero creado en Trello
+
+**Enlace al tablero en vivo:** https://trello.com/b/jo3DPPfq/matchpoint-tablero-final-del-proyecto
+
+El tablero ya fue creado en la cuenta de Thomas con 6 columnas, 53 tarjetas, 12 checklists, 13 etiquetas de contenido y 3 etiquetas de responsable. Juan Camilo Ramirez, Thomas Mendoza y Miguel Oviedo quedan identificados en cada tarjeta mediante etiquetas de responsable y en la descripción; Thomas también está asignado como miembro real de Trello en sus 23 tarjetas.
+
 ## Equipo y reparto de historias
 
 | Integrante | Historias del Sprint 1 | Responsabilidades principales en el Sprint 2 |
@@ -25,11 +31,11 @@ Tablero actualizado con **todo el trabajo realizado**: fase de inicio, Sprint 1 
 
 ### Opción A · Importar desde la exportación completa
 
-1. Entra a **https://trello.com** e inicia sesión.
-2. Ve a **Crear → Importar tablero** (o abre https://trello.com/import).
-3. Elige el archivo `MatchPoint-Trello.json` y sube el archivo.
-4. Trello creará el tablero **"MatchPoint · Tablero final del proyecto"** con las 6 columnas, las tarjetas, etiquetas, colores, fechas, miembros y checklists.
-5. Si los usuarios no existen en tu cuenta de Trello, las tarjetas conservan los nombres completos: asígnlos manualmente (Juan Camilo Ramirez, Thomas Mendoza, Miguel Oviedo).
+1. Abre directamente el tablero ya creado: **https://trello.com/b/jo3DPPfq/matchpoint-tablero-final-del-proyecto**.
+2. Si necesitas una copia en otra cuenta, usa un Power-Up de importación JSON o una herramienta compatible con el formato de exportación de Trello.
+3. Elige el archivo `MatchPoint-Trello.json`.
+4. Se recreará el tablero **"MatchPoint · Tablero final del proyecto"** con las 6 columnas, las tarjetas, etiquetas, colores, fechas, miembros y checklists.
+5. Si los usuarios no existen en esa cuenta de Trello, las tarjetas conservan los nombres completos: asígnlos manualmente (Juan Camilo Ramirez, Thomas Mendoza, Miguel Oviedo).
 
 ### Opción B · Importar desde el menú de un tablero
 

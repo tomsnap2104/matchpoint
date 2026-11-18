@@ -149,7 +149,9 @@ En entornos con sistema de archivos efímero, la base de datos se regenera autom
 
 ## Tablero Trello
 
-El tablero actualizado del proyecto (fase de inicio, Sprint 1, Sprint 2, QA, entrega, retrospectiva y mejoras) está en la carpeta `trello/`:
+**Tablero en vivo:** https://trello.com/b/jo3DPPfq/matchpoint-tablero-final-del-proyecto
+
+El tablero actualizado del proyecto (fase de inicio, Sprint 1, Sprint 2, QA, entrega, retrospectiva y mejoras) está creado en Trello con 6 columnas, 53 tarjetas y 12 checklists. También están estos archivos en la carpeta `trello/`:
 
 - `MatchPoint-Trello.json` — importable desde Trello (formato de exportación completa).
 - `MatchPoint-Trello-Plantilla.json` — formato plantilla para Power-Ups y herramientas compatibles.
